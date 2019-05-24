@@ -50,10 +50,33 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Sitecore.ExperienceForms.Mvc, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.ExperienceForms.Mvc.2.0.0\lib\net471\Sitecore.ExperienceForms.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Kernel, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.Kernel.12.0.0\lib\net471\Sitecore.Kernel.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.Mvc, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.Mvc.3.0.0\lib\net471\Sitecore.Mvc.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.Mvc.Analytics, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.Mvc.Analytics.12.0.0\lib\net471\Sitecore.Mvc.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="sysglobl" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.IO.FileSystem.Primitives" />
+    <Reference Include="System.Linq" />
+    <Reference Include="System.Linq.Expressions" />
+    <Reference Include="System.Reflection" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.Extensions" />
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -63,6 +86,9 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Mvc, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.AspNet.Mvc.5.2.4\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
@@ -89,14 +115,114 @@
     <Reference Include="Microsoft.Web.Infrastructure">
       <HintPath>..\..\..\..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
-    <Reference Include="System.Web.Mvc">
-      <HintPath>..\..\..\..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\Project\PSWebsite.Project.PSWebsite.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
-    <Content Include="web.config" />
+    <Content Include="Theme\about.html" />
+    <Content Include="Theme\causes.html" />
+    <Content Include="Theme\contact.html" />
+    <Content Include="Theme\css\bootstrap.css" />
+    <Content Include="Theme\css\bootstrap.min.css" />
+    <Content Include="Theme\css\elegant-fonts.css" />
+    <Content Include="Theme\css\font-awesome.css" />
+    <Content Include="Theme\css\font-awesome.min.css" />
+    <Content Include="Theme\css\swiper.css" />
+    <Content Include="Theme\css\swiper.min.css" />
+    <Content Include="Theme\css\themify-icons.css" />
+    <Content Include="Theme\elements.html" />
+    <Content Include="Theme\fonts\ElegantIcons.svg" />
+    <Content Include="Theme\fonts\fontawesome-webfont.svg" />
+    <Content Include="Theme\fonts\themify.svg" />
+    <Content Include="Theme\images\1.jpg" />
+    <Content Include="Theme\images\2.jpg" />
+    <Content Include="Theme\images\3.jpg" />
+    <Content Include="Theme\images\a.jpg" />
+    <Content Include="Theme\images\about-bg.jpg" />
+    <Content Include="Theme\images\b.jpg" />
+    <Content Include="Theme\images\c.jpg" />
+    <Content Include="Theme\images\cause-1.jpg" />
+    <Content Include="Theme\images\cause-2.jpg" />
+    <Content Include="Theme\images\cause-3.jpg" />
+    <Content Include="Theme\images\cause-4.jpg" />
+    <Content Include="Theme\images\cause-5.jpg" />
+    <Content Include="Theme\images\cause-6.jpg" />
+    <Content Include="Theme\images\cause-bg.jpg" />
+    <Content Include="Theme\images\causes-bg.jpg" />
+    <Content Include="Theme\images\charity-gray.png" />
+    <Content Include="Theme\images\charity-white.png" />
+    <Content Include="Theme\images\charity.png" />
+    <Content Include="Theme\images\contact-bg.jpg" />
+    <Content Include="Theme\images\d.jpg" />
+    <Content Include="Theme\images\donate-icon.png" />
+    <Content Include="Theme\images\donation-gray.png" />
+    <Content Include="Theme\images\donation-white.png" />
+    <Content Include="Theme\images\donation.png" />
+    <Content Include="Theme\images\dove.png" />
+    <Content Include="Theme\images\e.jpg" />
+    <Content Include="Theme\images\elements-bg.jpg" />
+    <Content Include="Theme\images\event-1.jpg" />
+    <Content Include="Theme\images\event-2.jpg" />
+    <Content Include="Theme\images\event-3.jpg" />
+    <Content Include="Theme\images\eye-for.jpg" />
+    <Content Include="Theme\images\f.jpg" />
+    <Content Include="Theme\images\featured-causes.jpg" />
+    <Content Include="Theme\images\foot-bg.jpg" />
+    <Content Include="Theme\images\foot-logo.png" />
+    <Content Include="Theme\images\g.jpg" />
+    <Content Include="Theme\images\h.jpg" />
+    <Content Include="Theme\images\hands-gray.png" />
+    <Content Include="Theme\images\hands-white.png" />
+    <Content Include="Theme\images\hero.jpg" />
+    <Content Include="Theme\images\i.jpg" />
+    <Content Include="Theme\images\logo.png" />
+    <Content Include="Theme\images\news-bg.jpg" />
+    <Content Include="Theme\images\olive.png" />
+    <Content Include="Theme\images\oshomah.jpg" />
+    <Content Include="Theme\images\p-1.jpg" />
+    <Content Include="Theme\images\p-2.jpg" />
+    <Content Include="Theme\images\p-3.jpg" />
+    <Content Include="Theme\images\portfolio-bg.jpg" />
+    <Content Include="Theme\images\single-cause-bg.jpg" />
+    <Content Include="Theme\images\teamwork.png" />
+    <Content Include="Theme\images\testimonial-1.jpg" />
+    <Content Include="Theme\images\testimonial-2.jpg" />
+    <Content Include="Theme\images\u-1.jpg" />
+    <Content Include="Theme\images\u-2.jpg" />
+    <Content Include="Theme\images\u-3.jpg" />
+    <Content Include="Theme\images\welcome-bg.jpg" />
+    <Content Include="Theme\images\welcome.jpg" />
+    <Content Include="Theme\index.html" />
+    <Content Include="Theme\js\circle-progress.min.js" />
+    <Content Include="Theme\js\custom.js" />
+    <Content Include="Theme\js\jquery.barfiller.js" />
+    <Content Include="Theme\js\jquery.collapsible.min.js" />
+    <Content Include="Theme\js\jquery.countdown.js" />
+    <Content Include="Theme\js\jquery.countdown.min.js" />
+    <Content Include="Theme\js\jquery.countTo.min.js" />
+    <Content Include="Theme\js\jquery.js" />
+    <Content Include="Theme\js\swiper.js" />
+    <Content Include="Theme\js\swiper.min.js" />
+    <Content Include="Theme\news.html" />
+    <Content Include="Theme\portfolio.html" />
+    <Content Include="Theme\single-causes.html" />
+    <Content Include="Theme\style.css" />
+    <Content Include="Views\Layouts\PSWebsite\PSWebsiteLayout.cshtml" />
+    <Content Include="Views\Layouts\PSWebsite\PSWebsiteOuterLayout.cshtml" />
+    <Content Include="Theme\fonts\ElegantIcons.eot" />
+    <Content Include="Theme\fonts\ElegantIcons.ttf" />
+    <Content Include="Theme\fonts\ElegantIcons.woff" />
+    <Content Include="Theme\fonts\fontawesome-webfont.eot" />
+    <Content Include="Theme\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Theme\fonts\fontawesome-webfont.woff" />
+    <Content Include="Theme\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Theme\fonts\FontAwesome.otf" />
+    <Content Include="Theme\fonts\themify.eot" />
+    <Content Include="Theme\fonts\themify.ttf" />
+    <Content Include="Theme\fonts\themify.woff" />
+    <Content Include="Theme\thecharity.zip" />
+    <Content Include="Views\web.config" />
+    <None Include="web.config" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
@@ -106,10 +232,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Templates.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Foundation\BaseTemplates\code\PSWebsite.Foundation.BaseTemplates.csproj">
+      <Project>{aa2c6e93-63eb-44fb-b9b0-5cce71d10e7f}</Project>
+      <Name>PSWebsite.Foundation.BaseTemplates</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

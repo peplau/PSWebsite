@@ -1,0 +1,11 @@
+﻿@using Sitecore.Mvc
+@{
+    Layout = "PSWebsiteOuterLayout.cshtml";
+}
+<header class="site-header">
+    @Html.Sitecore().Placeholder("site-header")
+</header>
+@Html.Sitecore().Placeholder("body")
+<footer class="site-footer">
+    @Html.Sitecore().Placeholder("site-footer")
+</footer>

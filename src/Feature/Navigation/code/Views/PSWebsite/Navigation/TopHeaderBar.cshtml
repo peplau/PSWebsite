@@ -1,0 +1,44 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Foundation.SpeRendering
+@model Sitecore.Data.Items.Item
+@{
+    Layout = null;
+}
+<div class="top-header-bar
+    <div class="container">
+        <div class="row flex-wrap justify-content-center justify-content-lg-between align-items-lg-center">
+            <div class="col-12 col-lg-8 d-none d-md-flex flex-wrap justify-content-center justify-content-lg-start mb-3 mb-lg-0">
+                <div class="header-bar-email">
+                    @Html.Sitecore().Field(Constants.ViewConstants._HeaderSettings.EmailLabel.ToString(), Model)
+                    @if (Sitecore.Context.PageMode.IsExperienceEditorEditing)
+                    {
+                        @Html.Sitecore().Field(Constants.ViewConstants._HeaderSettings.Email.ToString(), Model)
+                    }
+                    else
+                    {
+                        <a href="mailto:@(Html.Sitecore().Field(Constants.ViewConstants._HeaderSettings.Email.ToString(), Model))">
+                            @Html.Sitecore().Field(Constants.ViewConstants._HeaderSettings.Email.ToString(), Model)
+                        </a>
+                    }
+                </div><!-- .header-bar-email -->
+
+                <div class="header-bar-text">
+                    <p>
+                        @Html.Sitecore().Field(Constants.ViewConstants._HeaderSettings.PhoneLabel.ToString(), Model)
+                        <span>
+                            @Html.Sitecore().Field(Constants.ViewConstants._HeaderSettings.Phone.ToString(), Model)
+                        </span>
+                    </p>
+                </div><!-- .header-bar-text -->
+            </div><!-- .col -->
+
+            <div class="col-12 col-lg-4 d-flex flex-wrap justify-content-center justify-content-lg-end align-items-center">
+                <div class="donate-btn">
+                    @Html.Sitecore().BeginField(Constants.ViewConstants._HeaderSettings.DonateLink.ToString(), Model, new { haschildren = true })
+                        @Html.Sitecore().Field(Constants.ViewConstants._HeaderSettings.DonateLabel.ToString(), Model)
+                    @Html.Sitecore().EndField()
+                </div><!-- .donate-btn -->
+            </div><!-- .col -->
+        </div><!-- .row -->
+    </div><!-- .container -->
+</div><!-- .top-header-bar -->

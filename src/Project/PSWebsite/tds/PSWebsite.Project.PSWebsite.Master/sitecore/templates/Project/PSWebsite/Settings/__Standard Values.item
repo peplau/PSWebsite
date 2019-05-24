@@ -1,0 +1,101 @@
+----item----
+version: 1
+id: {19D774C8-0D47-4137-8930-6220220CD350}
+database: master
+path: /sitecore/templates/Project/PSWebsite/Settings/__Standard Values
+parent: {6F2A46F2-6CEA-44C3-89EC-BD9CF3687818}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {6F2A46F2-6CEA-44C3-89EC-BD9CF3687818}
+templatekey: Settings
+created: 20190523T163126Z
+
+----version----
+language: en
+version: 1
+revision: 72ea2aee-2511-4bc6-9816-1e8cc72f26d8
+
+----field----
+field: {934AEFF0-F607-4AD9-B74D-4FE738EB80CB}
+name: E-mail Label
+key: e-mail label
+content-length: 6
+
+MAIL: 
+----field----
+field: {B69030F5-341D-4B76-A2BD-AEE4D74103F7}
+name: E-mail
+key: e-mail
+content-length: 22
+
+contact@ourcharity.com
+----field----
+field: {4CFB64FD-EF49-4C0D-A3C5-4F14E3F2E1D3}
+name: Phone Label
+key: phone label
+content-length: 7
+
+PHONE: 
+----field----
+field: {48CE0193-739C-4A1F-BC83-2649B1AE6BA8}
+name: Phone
+key: phone
+content-length: 30
+
++24 3772 120 091 / +56452 4567
+----field----
+field: {91F39E5B-5A61-4E38-AA7C-AC53DA666020}
+name: Donate Label
+key: donate label
+content-length: 10
+
+Donate Now
+----field----
+field: {B871D683-0B2D-4592-864F-5205C120D75F}
+name: Donate Link
+key: donate link
+content-length: 91
+
+<link text="Donate Now" linktype="anchor" url="#" anchor="#" title="Donate Now" class="" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190523T163126Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+72ea2aee-2511-4bc6-9816-1e8cc72f26d8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190523T163309Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

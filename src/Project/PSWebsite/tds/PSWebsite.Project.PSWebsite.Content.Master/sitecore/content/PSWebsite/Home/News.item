@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {3FED2F07-1F16-42FD-8433-BB48059FC529}
+database: master
+path: /sitecore/content/PSWebsite/Home/News
+parent: {D5B8857B-DE30-4616-84F5-812A7129ACD5}
+name: News
+master: {00000000-0000-0000-0000-000000000000}
+template: {0CA213DE-1574-46AF-8EBC-D2A6BA7AFC37}
+templatekey: Internal
+created: 20190524T214533Z
+
+----version----
+language: en
+version: 1
+revision: f9294647-f9e1-4c22-a08f-a54cb92f2ce8
+
+----field----
+field: {DE83AB31-E09F-4DF2-A612-7AE6082D9A59}
+name: Navigation Title
+key: navigation title
+content-length: 4
+
+News
+----field----
+field: {2682104C-BBC4-41F3-80D7-2D5827048702}
+name: Page Title
+key: page title
+content-length: 4
+
+News
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190524T214533Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f9294647-f9e1-4c22-a08f-a54cb92f2ce8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190524T214533Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

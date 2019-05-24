@@ -1,0 +1,49 @@
+﻿@using Sitecore.Data.Fields
+@using Sitecore.Mvc
+@using Sitecore.Foundation.SpeRendering
+@using Sitecore.Links
+@using Sitecore.Mvc.Presentation
+@model Sitecore.Data.Items.Item
+@{
+    Layout = null;
+    var field = (LinkField) Model.Fields[Constants.ViewConstants._MainNavigationSettings.NavigationRoot.ToString()];
+    var navigationRoot = (field == null ? null: field.TargetItem) ?? Sitecore.Context.Item;
+}
+<div class="nav-bar">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex flex-wrap justify-content-between align-items-center">
+                <div class="site-branding d-flex align-items-center">
+                    <a class="d-block" href="@(LinkManager.GetItemUrl(navigationRoot))" rel="home">
+                        @Html.Sitecore().Field(Constants.ViewConstants._MainNavigationSettings.Logo.ToString(), Model, new { @class = "d-block" })
+                    </a>
+                </div><!-- .site-branding -->
+
+                <nav class="site-navigation d-flex justify-content-end align-items-center">
+                    <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-content-center">
+                        <li class="@(Sitecore.Context.Item.ID==navigationRoot.ID?"current-menu-item":"")">
+                            <a href="@(LinkManager.GetItemUrl(navigationRoot))">
+                                Home
+                            </a>
+                        </li>
+                        @foreach (var pageItem in navigationRoot.Children.Where(p => p.Fields[Constants.ViewConstants._BaseNavigation.ShowInNavigation.ToString()] != null && ((CheckboxField)p.Fields[Constants.ViewConstants._BaseNavigation.ShowInNavigation.ToString()]).Checked))
+                        {
+                            <li>
+                                <a href="@(LinkManager.GetItemUrl(pageItem))" class="@(Sitecore.Context.Item.ID==pageItem.ID?"current-menu-item":"")">
+                                    @Html.Sitecore().Field(Constants.ViewConstants._BaseNavigation.NavigationTitle.ToString(), pageItem, new { disable_web_editing=true })
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </nav><!-- .site-navigation -->
+
+                <div class="hamburger-menu d-lg-none">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div><!-- .hamburger-menu -->
+            </div><!-- .col -->
+        </div><!-- .row -->
+    </div><!-- .container -->
+</div><!-- .nav-bar -->

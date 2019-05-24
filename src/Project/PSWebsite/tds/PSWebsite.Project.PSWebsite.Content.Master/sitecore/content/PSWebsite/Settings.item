@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {FD20C94B-0BA9-43B0-96DA-D18D3359D4E4}
+database: master
+path: /sitecore/content/PSWebsite/Settings
+parent: {A8820922-2177-44AE-B5BF-49B59B167368}
+name: Settings
+master: {00000000-0000-0000-0000-000000000000}
+template: {6F2A46F2-6CEA-44C3-89EC-BD9CF3687818}
+templatekey: Settings
+created: 20190523T163456Z
+
+----version----
+language: en
+version: 1
+revision: f5e7b69e-5947-4237-b54f-b5accf297eb4
+
+----field----
+field: {CD280EF9-B030-4D8F-A6C0-49181B3A17D0}
+name: Logo
+key: logo
+content-length: 58
+
+<image mediaid="{1147D7E3-5C94-4383-BD1D-3F911CAC6305}" />
+----field----
+field: {A05A218E-EF39-4A6D-BC54-72AA9C9BA5EF}
+name: Navigation Root
+key: navigation root
+content-length: 38
+
+{D5B8857B-DE30-4616-84F5-812A7129ACD5}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190523T163456Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f5e7b69e-5947-4237-b54f-b5accf297eb4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190524T203804Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

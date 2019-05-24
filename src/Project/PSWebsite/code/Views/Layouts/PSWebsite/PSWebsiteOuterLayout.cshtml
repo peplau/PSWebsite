@@ -1,0 +1,47 @@
+﻿@using Sitecore.ExperienceForms.Mvc.Html
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Analytics.Extensions
+@{
+    Layout = null;
+
+    /* Constants */
+    const string fieldPageTitle = "Page Title";
+
+    /* Page Title */
+    var thisPageItem = Html.Sitecore().CurrentItem;
+    var pageTitle = "";
+    if (thisPageItem != null && thisPageItem.Fields[fieldPageTitle] != null) {
+        pageTitle = thisPageItem.Fields[fieldPageTitle].Value;
+    }
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>@pageTitle</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/Theme/css/bootstrap.min.css">         <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/Theme/css/font-awesome.min.css">      <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="/Theme/css/elegant-fonts.css">         <!-- ElegantFonts CSS -->
+    <link rel="stylesheet" href="/Theme/css/themify-icons.css">         <!-- themify-icons CSS -->
+    <link rel="stylesheet" href="/Theme/css/swiper.min.css">            <!-- Swiper CSS -->
+    <link rel="stylesheet" href="/Theme/style.css">                     <!-- Styles -->
+    @Html.Sitecore().VisitorIdentification()
+    @Html.RenderFormStyles()
+</head>
+
+<body>
+    @RenderBody()
+
+    <script type="text/javascript" src="/Theme/js/jquery.js"></script>
+    <script type="text/javascript" src="/Theme/js/jquery.collapsible.min.js"></script>
+    <script type="text/javascript" src="/Theme/js/swiper.min.js"></script>
+    <script type="text/javascript" src="/Theme/js/jquery.countdown.min.js"></script>
+    <script type="text/javascript" src="/Theme/js/circle-progress.min.js"></script>
+    <script type="text/javascript" src="/Theme/js/jquery.countTo.min.js"></script>
+    <script type="text/javascript" src="/Theme/js/jquery.barfiller.js"></script>
+    <script type="text/javascript" src="/Theme/js/custom.js"></script>
+    @Html.RenderFormScripts()
+</body>
+</html>
