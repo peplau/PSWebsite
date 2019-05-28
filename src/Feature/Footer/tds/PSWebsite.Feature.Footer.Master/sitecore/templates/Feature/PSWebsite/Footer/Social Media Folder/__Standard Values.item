@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {D99B26E3-18C3-400A-90B8-260CA7C5A10C}
+database: master
+path: /sitecore/templates/Feature/PSWebsite/Footer/Social Media Folder/__Standard Values
+parent: {81171705-E3A2-4E6E-ADB2-83BD25F671E4}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {81171705-E3A2-4E6E-ADB2-83BD25F671E4}
+templatekey: Social Media Folder
+created: 20190527T194503Z
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{9BCC4109-6D2D-482D-8909-4946B4D26F5C}
+----version----
+language: en
+version: 1
+revision: 2c36fdfa-c4d1-42b2-8913-66a3c163bacc
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190527T194503Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2c36fdfa-c4d1-42b2-8913-66a3c163bacc
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190527T195303Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

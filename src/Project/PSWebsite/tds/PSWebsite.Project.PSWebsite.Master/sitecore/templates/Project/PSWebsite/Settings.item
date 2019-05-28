@@ -14,9 +14,9 @@ created: 20190523T144357Z
 field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
 name: __Base template
 key: __base template
-content-length: 77
+content-length: 155
 
-{54A82E84-874E-4BCF-B1AC-F50975B381AF}|{902F34EA-A022-44CA-B2FE-AA862F376DB4}
+{54A82E84-874E-4BCF-B1AC-F50975B381AF}|{902F34EA-A022-44CA-B2FE-AA862F376DB4}|{7CF15DA0-E249-41AB-8C5B-7918502B2CA3}|{8DE2C852-AFAE-4144-A99D-65724F0B0A46}
 ----field----
 field: {F7D48A55-2158-4F02-9356-756654404F73}
 name: __Standard values
@@ -34,7 +34,7 @@ Applications/16x16/gears.png
 ----version----
 language: en
 version: 1
-revision: fb2aa4f5-6ebd-40ba-8eb8-79f6ae1d3984
+revision: 0cc94503-e38b-49d8-8181-ff9269dbfcbc
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -56,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-fb2aa4f5-6ebd-40ba-8eb8-79f6ae1d3984
+0cc94503-e38b-49d8-8181-ff9269dbfcbc
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20190524T203443Z
+20190527T204914Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -1,0 +1,106 @@
+﻿@using Sitecore.Data.Fields
+@using Sitecore.Data.Items
+@using Sitecore.Mvc
+@using Sitecore.Foundation.SpeRendering
+@using Sitecore.Globalization
+@model Sitecore.Data.Items.Item
+@{
+    Layout = null;
+}
+<div class="footer-widgets">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="foot-about">
+                    <h2>
+                        @Html.Sitecore().BeginField(Constants.ViewConstants._FooterSettings.FooterLogoLink.ToString(), Model, new { @class = "foot-logo", haschildren = true })
+                        @Html.Sitecore().Field(Constants.ViewConstants._FooterSettings.FooterLogoImage.ToString(), Model)
+                        @Html.Sitecore().EndField()
+                    </h2>
+                    <p>
+                        @Html.Sitecore().Field(Constants.ViewConstants._FooterSettings.FooterText.ToString(), Model)
+                    </p>
+                    <ul class="d-flex flex-wrap align-items-center">
+                        @foreach (var socialMedia in ((MultilistField)Model.Fields[Constants.ViewConstants._FooterSettings.FooterSocialMedias.ToString()]).GetItems())
+                        {
+                            <li>
+                                @Html.Sitecore().BeginField(Constants.ViewConstants.SocialMedia.Link.ToString(), socialMedia)
+                                <i class="fa @Html.Raw(socialMedia.Fields[Constants.ViewConstants.SocialMedia.Icon.ToString()])"></i>
+                                @Html.Sitecore().EndField()
+                            </li>
+                        }
+                    </ul>
+                </div><!-- .foot-about -->
+            </div><!-- .col -->
+
+            <div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-0">
+                <h2>
+                    @Html.Sitecore().Field(Constants.ViewConstants._FooterSettings.FooterLinksTitle.ToString(), Model)
+                </h2>
+                <ul>
+                    @foreach (var link in ((MultilistField)Model.Fields[Constants.ViewConstants._FooterSettings.FooterLinks.ToString()]).GetItems())
+                    {
+                        <li>
+                            @Html.Sitecore().Field(Constants.ViewConstants.Link.Link.ToString(), link)
+                        </li>
+                    }
+                </ul>
+            </div><!-- .col -->
+            @*TODO: Implement news*@
+            <div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-0">
+                <div class="foot-latest-news">
+                    <h2>Latest News</h2>
+                    <ul>
+                        <li>
+                            <h3><a href="#">A new cause to help</a></h3>
+                            <div class="posted-date">MArch 12, 2018</div>
+                        </li>
+
+                        <li>
+                            <h3><a href="#">We love to help people</a></h3>
+                            <div class="posted-date">MArch 12, 2018</div>
+                        </li>
+
+                        <li>
+                            <h3><a href="#">The new ideas for helping</a></h3>
+                            <div class="posted-date">MArch 12, 2018</div>
+                        </li>
+                    </ul>
+                </div><!-- .foot-latest-news -->
+            </div><!-- .col -->
+
+            <div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-0">
+                <div class="foot-contact">
+                    <h2>@Translate.Text("Contact")</h2>
+                    <ul>
+                        <li>
+                            <i class="fa fa-phone"></i><span>
+                                @Html.Sitecore().Field(Constants.ViewConstants._ContactSettings.Phone.ToString(), Model)
+                            </span>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope"></i><span>
+                                @Html.Sitecore().Field(Constants.ViewConstants._ContactSettings.Email.ToString(), Model)
+                            </span>
+                        </li>
+                        <li>
+                            <i class="fa fa-map-marker"></i><span>
+                                @(Html.Sitecore().Field(Constants.ViewConstants._ContactSettings.AddressLine.ToString(), Model)),
+                                @(Html.Sitecore().Field(Constants.ViewConstants._ContactSettings.City.ToString(), Model)),
+                                @(Html.Sitecore().Field(Constants.ViewConstants._ContactSettings.StateAbreviation.ToString(), Model))
+                            </span>
+                        </li>
+                    </ul>
+                </div><!-- .foot-contact -->
+            
+                @*TODO: Implement contact form*@
+                <div class="subscribe-form">
+                    <form class="d-flex flex-wrap align-items-center">
+                        <input type="email" placeholder="Your email">
+                        <input type="submit" value="send">
+                    </form><!-- .flex -->
+                </div><!-- .search-widget -->
+            </div><!-- .col -->
+        </div><!-- .row -->
+    </div><!-- .container -->
+</div><!-- .footer-widgets -->
