@@ -14,7 +14,7 @@ created: 20190527T205416Z
 field: {B1A94FF0-6897-47C0-9C51-AA6ACB80B1F0}
 name: Script
 key: script
-content-length: 694
+content-length: 768
 
 Try
 {
@@ -29,6 +29,9 @@ Try
     
     Import-Function -Name Get-LinkConstants
     Get-LinkConstants
+
+    Import-Function -Name Get-CssTagConstants
+    Get-CssTagConstants
 
     Import-Function -Name Get-SiteSettings
     $settingsItem = Get-SiteSettings $context.RenderingContext.ContextItem
@@ -45,7 +48,7 @@ Catch
 ----version----
 language: en
 version: 1
-revision: 070dbdfa-aa72-469e-b98b-e2939d4341fd
+revision: 6920fc50-f952-41cb-ba92-8c279a3724c7
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -67,14 +70,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-070dbdfa-aa72-469e-b98b-e2939d4341fd
+6920fc50-f952-41cb-ba92-8c279a3724c7
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20190527T223606Z
+20190528T155536Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

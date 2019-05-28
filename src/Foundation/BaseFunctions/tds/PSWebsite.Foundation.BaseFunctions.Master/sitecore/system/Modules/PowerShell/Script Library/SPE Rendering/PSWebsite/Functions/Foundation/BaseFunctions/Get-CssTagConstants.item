@@ -1,31 +1,30 @@
 ----item----
 version: 1
-id: {F438DA41-A2E8-4811-A394-0DFAD91101DC}
+id: {FD9BD114-9BF5-40C5-BA19-04308B971784}
 database: master
-path: /sitecore/system/Modules/PowerShell/Script Library/SPE Rendering/PSWebsite/Functions/Feature/Footer/Get-SocialMediaConstants
-parent: {FF528A61-3510-407F-AB4E-9A7DE4803474}
-name: Get-SocialMediaConstants
+path: /sitecore/system/Modules/PowerShell/Script Library/SPE Rendering/PSWebsite/Functions/Foundation/BaseFunctions/Get-CssTagConstants
+parent: {E7DD9067-7B04-4EEE-9422-21DF52A3F5F2}
+name: Get-CssTagConstants
 master: {00000000-0000-0000-0000-000000000000}
 template: {DD22F1B3-BD87-4DB2-9E7D-F7A496888D43}
 templatekey: PowerShell Script
-created: 20190527T211425Z
+created: 20190528T154548Z
 
 ----field----
 field: {B1A94FF0-6897-47C0-9C51-AA6ACB80B1F0}
 name: Script
 key: script
-content-length: 319
+content-length: 225
 
-function Get-SocialMediaConstants {
-    [Sitecore.Foundation.SpeRendering.Constants]::ViewConstants.SocialMedia = [PSCustomObject]@{
-        Link    = New-Object Sitecore.Data.ID "{7016FE90-8A1C-4558-B5DF-BBA905E8DEDF}"
-        Icon    = New-Object Sitecore.Data.ID "{0A492048-2D7F-4199-B6D5-27949F79E94D}"
+function Get-CssTagConstants {
+    [Sitecore.Foundation.SpeRendering.Constants]::ViewConstants.CssTag = [PSCustomObject]@{
+        CssClass    = New-Object Sitecore.Data.ID "{373D0CAD-904C-42C8-9111-CB9ACBAA23C8}"
     }
 }
 ----version----
 language: en
 version: 1
-revision: 8fafda4b-a11f-4fb0-9e9c-fccf369a2a3d
+revision: d3489f3a-5ed1-4eab-838f-693d2b3dba34
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -47,14 +46,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8fafda4b-a11f-4fb0-9e9c-fccf369a2a3d
+d3489f3a-5ed1-4eab-838f-693d2b3dba34
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20190528T154102Z
+20190528T155521Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -136,12 +136,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\Foundation\BaseTemplates\code\PSWebsite.Foundation.BaseTemplates.csproj">
-      <Project>{aa2c6e93-63eb-44fb-b9b0-5cce71d10e7f}</Project>
-      <Name>PSWebsite.Foundation.BaseTemplates</Name>
-    </ProjectReference>
-  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

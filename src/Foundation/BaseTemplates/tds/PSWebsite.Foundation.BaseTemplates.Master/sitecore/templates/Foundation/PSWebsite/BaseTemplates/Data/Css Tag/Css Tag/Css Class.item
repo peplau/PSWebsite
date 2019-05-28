@@ -1,22 +1,22 @@
 ----item----
 version: 1
-id: {7016FE90-8A1C-4558-B5DF-BBA905E8DEDF}
+id: {373D0CAD-904C-42C8-9111-CB9ACBAA23C8}
 database: master
-path: /sitecore/templates/Feature/PSWebsite/Footer/Social Media/Social Media/Link
-parent: {F952F366-3472-4F47-8937-4F16EDE33CE3}
-name: Link
+path: /sitecore/templates/Foundation/PSWebsite/BaseTemplates/Data/Css Tag/Css Tag/Css Class
+parent: {F423B593-115F-4442-999A-F1C96DF35D0C}
+name: Css Class
 master: {00000000-0000-0000-0000-000000000000}
 template: {455A3E98-A627-4B40-8035-E683A0331AC7}
 templatekey: Template field
-created: 20190527T194642Z
+created: 20190528T152352Z
 
 ----field----
 field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
 name: Type
 key: type
-content-length: 12
+content-length: 16
 
-General Link
+Single-Line Text
 ----field----
 field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
 name: __Sortorder
@@ -27,7 +27,7 @@ content-length: 3
 ----version----
 language: en
 version: 1
-revision: edf06a4a-753d-4479-a672-f57ff5293ef5
+revision: 1b2c119b-b5f2-45f7-9d6d-a4599c242d74
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -35,21 +35,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20190527T194642Z
+20190528T152352Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-edf06a4a-753d-4479-a672-f57ff5293ef5
+1b2c119b-b5f2-45f7-9d6d-a4599c242d74
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20190528T163501Z
+20190528T152352Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

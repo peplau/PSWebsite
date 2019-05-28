@@ -28,7 +28,22 @@
                             {
                                 <li>
                                     @Html.Sitecore().BeginField(Constants.ViewConstants.SocialMedia.Link.ToString(), socialMedia)
-                                    <i class="fa @Html.Raw(socialMedia.Fields[Constants.ViewConstants.SocialMedia.Icon.ToString()])"></i>
+                                    @{
+                                        var iconCss = "";
+                                        var iconField = (LookupField)socialMedia.Fields[Constants.ViewConstants.SocialMedia.Icon.ToString()];
+                                        if (iconField != null && iconField.TargetItem != null)
+                                        {
+                                            var cssClassField = (TextField)iconField.TargetItem.Fields[Constants.ViewConstants.CssTag.CssClass.ToString()];
+                                            if (cssClassField != null)
+                                            {
+                                                iconCss = cssClassField.Value;
+                                            }
+                                        }
+                                    }
+                                    @using (Html.EditFrame(socialMedia.ID.ToString(), "{FAF41EB5-8893-402A-9C03-D3B67601D03F}", "Social Media", null, null, null))
+                                    {
+                                        <i class="fa @iconCss"></i>
+                                    }
                                     @Html.Sitecore().EndField()
                                 </li>
                             }
