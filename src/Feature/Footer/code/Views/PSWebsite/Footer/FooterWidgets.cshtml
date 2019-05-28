@@ -3,6 +3,7 @@
 @using Sitecore.Mvc
 @using Sitecore.Foundation.SpeRendering
 @using Sitecore.Globalization
+@using Sitecore.Mvc.Extensions
 @model Sitecore.Data.Items.Item
 @{
     Layout = null;
@@ -21,13 +22,16 @@
                         @Html.Sitecore().Field(Constants.ViewConstants._FooterSettings.FooterText.ToString(), Model)
                     </p>
                     <ul class="d-flex flex-wrap align-items-center">
-                        @foreach (var socialMedia in ((MultilistField)Model.Fields[Constants.ViewConstants._FooterSettings.FooterSocialMedias.ToString()]).GetItems())
+                        @using (Html.EditFrame(Model.ID.ToString(), "{5060E5F3-0BDE-4F55-A0EF-EBB50BBA1154}", "Social Medias", null, null, null))
                         {
-                            <li>
-                                @Html.Sitecore().BeginField(Constants.ViewConstants.SocialMedia.Link.ToString(), socialMedia)
-                                <i class="fa @Html.Raw(socialMedia.Fields[Constants.ViewConstants.SocialMedia.Icon.ToString()])"></i>
-                                @Html.Sitecore().EndField()
-                            </li>
+                            foreach (var socialMedia in ((MultilistField)Model.Fields[Constants.ViewConstants._FooterSettings.FooterSocialMedias.ToString()]).GetItems())
+                            {
+                                <li>
+                                    @Html.Sitecore().BeginField(Constants.ViewConstants.SocialMedia.Link.ToString(), socialMedia)
+                                    <i class="fa @Html.Raw(socialMedia.Fields[Constants.ViewConstants.SocialMedia.Icon.ToString()])"></i>
+                                    @Html.Sitecore().EndField()
+                                </li>
+                            }
                         }
                     </ul>
                 </div><!-- .foot-about -->
@@ -38,11 +42,14 @@
                     @Html.Sitecore().Field(Constants.ViewConstants._FooterSettings.FooterLinksTitle.ToString(), Model)
                 </h2>
                 <ul>
-                    @foreach (var link in ((MultilistField)Model.Fields[Constants.ViewConstants._FooterSettings.FooterLinks.ToString()]).GetItems())
+                    @using (Html.EditFrame(Model.ID.ToString(), "{6B597994-F30E-4339-BCCC-EE9D17B569B4}", "Links", null, null, null))
                     {
-                        <li>
-                            @Html.Sitecore().Field(Constants.ViewConstants.Link.Link.ToString(), link)
-                        </li>
+                        foreach (var link in ((MultilistField)Model.Fields[Constants.ViewConstants._FooterSettings.FooterLinks.ToString()]).GetItems())
+                        {
+                            <li>
+                                @Html.Sitecore().Field(Constants.ViewConstants.Link.Link.ToString(), link)
+                            </li>
+                        }
                     }
                 </ul>
             </div><!-- .col -->
@@ -92,7 +99,6 @@
                         </li>
                     </ul>
                 </div><!-- .foot-contact -->
-            
                 @*TODO: Implement contact form*@
                 <div class="subscribe-form">
                     <form class="d-flex flex-wrap align-items-center">

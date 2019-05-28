@@ -66,6 +66,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSWebsite.Feature.Contact",
 EndProject
 Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "PSWebsite.Feature.Contact.Master", "src\Feature\Contact\tds\PSWebsite.Feature.Contact.Master\PSWebsite.Feature.Contact.Master.scproj", "{3AD5E8C8-C1FE-475F-BBB1-4768C6E9C2BE}"
 EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "PSWebsite.Feature.Footer.Core", "src\Feature\Footer\tds\PSWebsite.Feature.Footer.Core\PSWebsite.Feature.Footer.Core.scproj", "{2C2DB2A3-0D29-4FA5-B478-D4CFDEBF4E06}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -160,6 +162,12 @@ Global
 		{3AD5E8C8-C1FE-475F-BBB1-4768C6E9C2BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AD5E8C8-C1FE-475F-BBB1-4768C6E9C2BE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3AD5E8C8-C1FE-475F-BBB1-4768C6E9C2BE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2C2DB2A3-0D29-4FA5-B478-D4CFDEBF4E06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C2DB2A3-0D29-4FA5-B478-D4CFDEBF4E06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C2DB2A3-0D29-4FA5-B478-D4CFDEBF4E06}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2C2DB2A3-0D29-4FA5-B478-D4CFDEBF4E06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C2DB2A3-0D29-4FA5-B478-D4CFDEBF4E06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C2DB2A3-0D29-4FA5-B478-D4CFDEBF4E06}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -191,6 +199,7 @@ Global
 		{AA238009-369F-4462-B25F-035EC32AD95F} = {A4601EE5-504D-4E6F-B630-36E0AFF98492}
 		{18ACB142-3948-4AE8-BF57-FF6654C3C0E9} = {AA238009-369F-4462-B25F-035EC32AD95F}
 		{3AD5E8C8-C1FE-475F-BBB1-4768C6E9C2BE} = {AA238009-369F-4462-B25F-035EC32AD95F}
+		{2C2DB2A3-0D29-4FA5-B478-D4CFDEBF4E06} = {5D713FC3-8C0B-41EF-BFD1-859E366B0030}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EF174A99-78E5-4DD2-85DB-610DD08FD083}

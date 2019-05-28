@@ -16,7 +16,7 @@ name: Script
 key: script
 content-length: 750
 
-function Get-HeaderSettingsConstants {
+function Get-FooterSettingsConstants {
     [Sitecore.Foundation.SpeRendering.Constants]::ViewConstants._FooterSettings = [PSCustomObject]@{
         FooterLogoImage     = New-Object Sitecore.Data.ID "{C9B6FA10-963B-457D-AD81-681391DAE0B7}"
         FooterLogoLink      = New-Object Sitecore.Data.ID "{4F140531-3EC3-40B5-B34F-151E1E56A85D}"
@@ -29,7 +29,7 @@ function Get-HeaderSettingsConstants {
 ----version----
 language: en
 version: 1
-revision: 917d7a81-b988-469f-ad62-75e757d947fd
+revision: 63799ff8-2b6e-49bc-a851-c7ecbed590f8
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -51,14 +51,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-917d7a81-b988-469f-ad62-75e757d947fd
+63799ff8-2b6e-49bc-a851-c7ecbed590f8
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20190527T205838Z
+20190527T210027Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

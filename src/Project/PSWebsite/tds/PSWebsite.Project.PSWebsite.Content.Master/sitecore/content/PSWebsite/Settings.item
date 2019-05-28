@@ -13,7 +13,7 @@ created: 20190523T163456Z
 ----version----
 language: en
 version: 1
-revision: 4f84d56f-27cf-42c3-8b8a-7d31817a620e
+revision: d9014087-f6c0-463f-906a-b76436c7ba25
 
 ----field----
 field: {CD280EF9-B030-4D8F-A6C0-49181B3A17D0}
@@ -47,9 +47,9 @@ office@template.com
 field: {C2FFDF96-BA8C-488A-AD84-28BC352261B0}
 name: Address Line
 key: address line
-content-length: 31
+content-length: 29
 
-Main Str. no 45-46, b3, 56832, 
+Main Str. no 45-46, b3, 56832
 ----field----
 field: {0B600B8A-F12B-4608-878A-421DF48513F7}
 name: City
@@ -75,9 +75,9 @@ content-length: 58
 field: {4F140531-3EC3-40B5-B34F-151E1E56A85D}
 name: Footer Logo Link
 key: footer logo link
-content-length: 73
+content-length: 133
 
-<link text="#" linktype="anchor" url="#" anchor="#" title="#" class="" />
+<link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{D5B8857B-DE30-4616-84F5-812A7129ACD5}" />
 ----field----
 field: {78615B87-742B-4BF6-B339-997BBA7C6FA0}
 name: Footer Text
@@ -119,14 +119,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-4f84d56f-27cf-42c3-8b8a-7d31817a620e
+d9014087-f6c0-463f-906a-b76436c7ba25
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20190527T205049Z
+20190527T212724Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

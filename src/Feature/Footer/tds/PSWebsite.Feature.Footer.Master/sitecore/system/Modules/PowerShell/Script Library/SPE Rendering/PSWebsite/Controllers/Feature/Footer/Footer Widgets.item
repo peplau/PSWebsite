@@ -14,17 +14,26 @@ created: 20190527T205416Z
 field: {B1A94FF0-6897-47C0-9C51-AA6ACB80B1F0}
 name: Script
 key: script
-content-length: 443
+content-length: 694
 
 Try
 {
-    Import-Function -Name Get-HeaderSettingsConstants
-    Get-HeaderSettingsConstants
+    Import-Function -Name Get-FooterSettingsConstants
+    Get-FooterSettingsConstants
+    
+    Import-Function -Name Get-ContactSettingsConstants
+    Get-ContactSettingsConstants
+
+    Import-Function -Name Get-SocialMediaConstants
+    Get-SocialMediaConstants
+    
+    Import-Function -Name Get-LinkConstants
+    Get-LinkConstants
 
     Import-Function -Name Get-SiteSettings
     $settingsItem = Get-SiteSettings $context.RenderingContext.ContextItem
     
-    $context.View = "~/Views/PSWebsite/Navigation/TopHeaderBar.cshtml";
+    $context.View = "~/Views/PSWebsite/Footer/FooterWidgets.cshtml";
     $context.Model = $settingsItem;
     return $context;
 }
@@ -36,7 +45,7 @@ Catch
 ----version----
 language: en
 version: 1
-revision: 10ffc434-834c-48d8-84d1-35d03dab33b4
+revision: 070dbdfa-aa72-469e-b98b-e2939d4341fd
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -58,14 +67,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-10ffc434-834c-48d8-84d1-35d03dab33b4
+070dbdfa-aa72-469e-b98b-e2939d4341fd
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20190527T205436Z
+20190527T223606Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
