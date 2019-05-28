@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {F871B775-435F-4300-A2B8-634B9481BD3C}
+database: master
+path: /sitecore/content/PSWebsite/Settings/Social Media
+parent: {FD20C94B-0BA9-43B0-96DA-D18D3359D4E4}
+name: Social Media
+master: {91372D95-5905-4F3D-AAD0-F6193370A3E1}
+template: {81171705-E3A2-4E6E-ADB2-83BD25F671E4}
+templatekey: Social Media Folder
+created: 20190527T195859Z
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{0A821552-9C4C-4E74-8AD4-00555F798CB9}
+----version----
+language: en
+version: 1
+revision: 09723939-b445-4b32-9162-ef278777bd30
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190527T195859Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+09723939-b445-4b32-9162-ef278777bd30
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190527T195859Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

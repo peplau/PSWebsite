@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {C2B3D0E4-5973-444F-803F-427D4565F513}
+database: master
+path: /sitecore/content/PSWebsite/Settings/Social Media/Dribbble
+parent: {F871B775-435F-4300-A2B8-634B9481BD3C}
+name: Dribbble
+master: {91372D95-5905-4F3D-AAD0-F6193370A3E1}
+template: {9BCC4109-6D2D-482D-8909-4946B4D26F5C}
+templatekey: Social Media
+created: 20190527T195900Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+400
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{5F4B9BE4-8BB9-4E6F-A7DB-D3A09D21E885}
+----version----
+language: en
+version: 1
+revision: 78ee49e0-640e-4b9f-8eab-54a1a6630a08
+
+----field----
+field: {7016FE90-8A1C-4558-B5DF-BBA905E8DEDF}
+name: Link
+key: link
+content-length: 73
+
+<link text="#" linktype="anchor" url="#" anchor="#" title="#" class="" />
+----field----
+field: {4D43C2FB-7472-4C21-8C16-7150334B2AC9}
+name: Icon
+key: icon
+content-length: 11
+
+fa-dribbble
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190527T195900Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+78ee49e0-640e-4b9f-8eab-54a1a6630a08
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190527T195900Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {77FD1803-C1C2-4471-A7AE-85E8C6369529}
+database: master
+path: /sitecore/content/PSWebsite/Settings/Social Media/Pinterest
+parent: {F871B775-435F-4300-A2B8-634B9481BD3C}
+name: Pinterest
+master: {91372D95-5905-4F3D-AAD0-F6193370A3E1}
+template: {9BCC4109-6D2D-482D-8909-4946B4D26F5C}
+templatekey: Social Media
+created: 20190527T195859Z
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{1F7097BB-CEE0-48B7-AC01-13A43CB9D661}
+----version----
+language: en
+version: 1
+revision: 6bc648fa-c3c8-41a9-9cc9-b40a18e28dc9
+
+----field----
+field: {7016FE90-8A1C-4558-B5DF-BBA905E8DEDF}
+name: Link
+key: link
+content-length: 73
+
+<link text="#" linktype="anchor" url="#" anchor="#" title="#" class="" />
+----field----
+field: {4D43C2FB-7472-4C21-8C16-7150334B2AC9}
+name: Icon
+key: icon
+content-length: 14
+
+fa-pinterest-p
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190527T195900Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6bc648fa-c3c8-41a9-9cc9-b40a18e28dc9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190527T195900Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

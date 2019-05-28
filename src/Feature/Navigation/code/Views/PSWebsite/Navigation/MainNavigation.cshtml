@@ -1,6 +1,7 @@
 ﻿@using Sitecore.Data.Fields
 @using Sitecore.Mvc
 @using Sitecore.Foundation.SpeRendering
+@using Sitecore.Globalization
 @using Sitecore.Links
 @using Sitecore.Mvc.Presentation
 @model Sitecore.Data.Items.Item
@@ -23,7 +24,7 @@
                     <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-content-center">
                         <li class="@(Sitecore.Context.Item.ID==navigationRoot.ID?"current-menu-item":"")">
                             <a href="@(LinkManager.GetItemUrl(navigationRoot))">
-                                Home
+                                @Translate.Text("Home")
                             </a>
                         </li>
                         @foreach (var pageItem in navigationRoot.Children.Where(p => p.Fields[Constants.ViewConstants._BaseNavigation.ShowInNavigation.ToString()] != null && ((CheckboxField)p.Fields[Constants.ViewConstants._BaseNavigation.ShowInNavigation.ToString()]).Checked))

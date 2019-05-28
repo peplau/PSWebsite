@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {C8713A4F-0CC6-4E51-BB5D-EE1A7C0FAFAC}
+database: master
+path: /sitecore/templates/Feature/PSWebsite/Footer/Links Folder/__Standard Values
+parent: {279D1C02-B8F4-46E9-9F38-D3A8641A867E}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {279D1C02-B8F4-46E9-9F38-D3A8641A867E}
+templatekey: Links Folder
+created: 20190527T200634Z
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{B08BD47F-DE84-4CE1-A31F-AA93A325DC75}
+----version----
+language: en
+version: 1
+revision: 6820dd4a-25ce-47b2-8dc2-5e02bd7981a1
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190527T200634Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6820dd4a-25ce-47b2-8dc2-5e02bd7981a1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190527T200919Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
