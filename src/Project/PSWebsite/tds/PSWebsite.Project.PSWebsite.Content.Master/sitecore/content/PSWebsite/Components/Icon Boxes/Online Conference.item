@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {0BD2785E-9B83-41A0-88A8-F0B80FF76450}
+database: master
+path: /sitecore/content/PSWebsite/Components/Icon Boxes/Online Conference
+parent: {40020A49-247D-46CF-B0F7-262120AF32E4}
+name: Online Conference
+master: {00000000-0000-0000-0000-000000000000}
+template: {48AD23EF-6F49-47CF-86DD-5124FF16AD48}
+templatekey: Icon Boxes Box
+created: 20190529T132204Z
+
+----version----
+language: en
+version: 1
+revision: 02dfb615-a1ed-40bb-97ed-2f9e878fe423
+
+----field----
+field: {5A128E54-31CE-4BE9-BE42-9E78C88E2A37}
+name: Title
+key: title
+content-length: 17
+
+Online Conference
+----field----
+field: {B94D78C8-A68F-49C4-9DBB-CB2752C5C404}
+name: Content
+key: content
+content-length: 103
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris quis aliquam.
+----field----
+field: {E0AC2AEC-DB50-4334-96B1-02FFC96ADFC3}
+name: Image Gray
+key: image gray
+content-length: 58
+
+<image mediaid="{F5F88BFE-6870-4224-8F47-6B1FC10AF321}" />
+----field----
+field: {5232EA8B-4B4E-4A90-9F8C-25796A85627B}
+name: Image White
+key: image white
+content-length: 58
+
+<image mediaid="{39575210-9B3B-4149-8FC4-A3D213618D5A}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190529T132204Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+02dfb615-a1ed-40bb-97ed-2f9e878fe423
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190529T132234Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

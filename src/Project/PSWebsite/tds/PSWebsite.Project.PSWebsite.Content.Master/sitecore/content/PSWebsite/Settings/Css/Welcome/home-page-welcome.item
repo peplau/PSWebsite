@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {7C63D684-F9B2-4C9F-9176-E5B93D044B58}
+database: master
+path: /sitecore/content/PSWebsite/Settings/Css/Welcome/home-page-welcome
+parent: {3551E55E-03B2-4A19-A41C-F7C76AB5AB2A}
+name: home-page-welcome
+master: {00000000-0000-0000-0000-000000000000}
+template: {C81E73C2-31FF-427D-AC13-D7183AE2C679}
+templatekey: Css Tag
+created: 20190529T135340Z
+
+----version----
+language: en
+version: 1
+revision: cfbf9f15-4a69-40f0-8112-fdf84655debd
+
+----field----
+field: {373D0CAD-904C-42C8-9111-CB9ACBAA23C8}
+name: Css Class
+key: css class
+content-length: 17
+
+home-page-welcome
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190529T135340Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cfbf9f15-4a69-40f0-8112-fdf84655debd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190529T135340Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

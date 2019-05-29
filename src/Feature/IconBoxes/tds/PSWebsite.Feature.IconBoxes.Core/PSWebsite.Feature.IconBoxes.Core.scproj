@@ -50,23 +50,23 @@
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Applications\WebEdit\Edit Frame Buttons.item">
+    <SitecoreItem Include="sitecore\content\Applications\WebEdit\Custom Experience Buttons.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Applications\WebEdit\Edit Frame Buttons\PSWebsite.item">
+    <SitecoreItem Include="sitecore\content\Applications\WebEdit\Custom Experience Buttons\PSWebsite.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Applications\WebEdit\Edit Frame Buttons\PSWebsite\Feature.item">
+    <SitecoreItem Include="sitecore\content\Applications\WebEdit\Custom Experience Buttons\PSWebsite\Feature.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Applications\WebEdit\Edit Frame Buttons\PSWebsite\Feature\IconBoxes.item">
+    <SitecoreItem Include="sitecore\content\Applications\WebEdit\Custom Experience Buttons\PSWebsite\Feature\IconBoxes.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Applications\WebEdit\Edit Frame Buttons\PSWebsite\Feature\IconBoxes\Icon Box Fields.item">
+    <SitecoreItem Include="sitecore\content\Applications\WebEdit\Custom Experience Buttons\PSWebsite\Feature\IconBoxes\Icon Box Fields.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>

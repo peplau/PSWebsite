@@ -1,0 +1,67 @@
+----item----
+version: 1
+id: {7EF844D4-4CF4-4A5E-AD29-A9F8970829C4}
+database: master
+path: /sitecore/system/Modules/PowerShell/Script Library/SPE Rendering/PSWebsite/Functions/Feature/IconBoxes/Get-IconBoxesBoxConstants
+parent: {B82640F9-F760-4FC3-BCB8-2D68CD8EF641}
+name: Get-IconBoxesBoxConstants
+master: {00000000-0000-0000-0000-000000000000}
+template: {DD22F1B3-BD87-4DB2-9E7D-F7A496888D43}
+templatekey: PowerShell Script
+created: 20190529T123849Z
+
+----field----
+field: {B1A94FF0-6897-47C0-9C51-AA6ACB80B1F0}
+name: Script
+key: script
+content-length: 605
+
+function Get-IconBoxesBoxConstants {
+    [Sitecore.Foundation.SpeRendering.Constants]::ViewConstants.IconBoxesBox = [PSCustomObject]@{
+        Title       = New-Object Sitecore.Data.ID "{5A128E54-31CE-4BE9-BE42-9E78C88E2A37}"
+        Content     = New-Object Sitecore.Data.ID "{B94D78C8-A68F-49C4-9DBB-CB2752C5C404}"
+        Highlighted = New-Object Sitecore.Data.ID "{FA68226A-1985-4575-B32D-BDF0651D046A}"
+        ImageGray   = New-Object Sitecore.Data.ID "{E0AC2AEC-DB50-4334-96B1-02FFC96ADFC3}"
+        ImageWhite  = New-Object Sitecore.Data.ID "{5232EA8B-4B4E-4A90-9F8C-25796A85627B}"
+    }
+}
+----version----
+language: en
+version: 1
+revision: eb853e6d-15e9-4488-80f0-b24c4a8265a9
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190528T213006Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+eb853e6d-15e9-4488-80f0-b24c4a8265a9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190529T124131Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

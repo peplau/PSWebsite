@@ -2,9 +2,9 @@
 version: 1
 id: {D2EA6CEA-C702-4261-B07C-0C1F5CF90415}
 database: master
-path: /sitecore/templates/Feature/PSWebsite/IconBoxes/Icon boxes Folder
+path: /sitecore/templates/Feature/PSWebsite/IconBoxes/Icon Boxes Folder
 parent: {E45F6178-E830-495F-89DE-ED4F2D6167A2}
-name: Icon boxes Folder
+name: Icon Boxes Folder
 master: {00000000-0000-0000-0000-000000000000}
 template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
 templatekey: Template
@@ -17,10 +17,24 @@ key: __base template
 content-length: 38
 
 {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+----field----
+field: {F7D48A55-2158-4F02-9356-756654404F73}
+name: __Standard values
+key: __standard values
+content-length: 38
+
+{3FA169B6-6F26-40E2-AEDE-C6C5968231E6}
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 49
+
+/~/icon/applicationsv2/32x32/folder3_document.png
 ----version----
 language: en
 version: 1
-revision: df307842-04c2-4fee-a661-9dfe7c982b3d
+revision: c61d61d2-2ac3-4931-9f74-45548beb6772
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -42,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-df307842-04c2-4fee-a661-9dfe7c982b3d
+c61d61d2-2ac3-4931-9f74-45548beb6772
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20190529T122427Z
+20190529T122755Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

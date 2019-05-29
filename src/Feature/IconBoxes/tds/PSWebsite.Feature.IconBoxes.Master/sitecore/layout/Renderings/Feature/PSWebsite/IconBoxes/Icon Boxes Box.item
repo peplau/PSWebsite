@@ -11,6 +11,27 @@ templatekey: Powershell rendering
 created: 20190529T120853Z
 
 ----field----
+field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
+name: Datasource Location
+key: datasource location
+content-length: 104
+
+query:./ancestor-or-self::*[@@templateid='{0371BA1C-ED70-4716-ADEC-8B2C55FC5251}']/Components/Icon Boxes
+----field----
+field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
+name: Datasource Template
+key: datasource template
+content-length: 62
+
+/sitecore/templates/Feature/PSWebsite/IconBoxes/Icon Boxes Box
+----field----
+field: {A2F5D9DF-8CBA-4A1D-99EB-51ACB94CB057}
+name: Page Editor Buttons
+key: page editor buttons
+content-length: 38
+
+{E6699B36-C236-4C31-905A-0DFF5D86669B}
+----field----
 field: {C7C26117-DBB1-42B2-AB5E-F7223845CCA3}
 name: __Thumbnail
 key: __thumbnail
@@ -20,8 +41,15 @@ content-length: 58
 ----version----
 language: en
 version: 1
-revision: e2eef762-bce0-421b-8c75-a5945a5aa855
+revision: 1491fe07-5aa2-4d2c-a47f-6070bb47c00d
 
+----field----
+field: {0B4F90A4-F0B3-4D11-BFD9-B7664977650C}
+name: Powershell Script
+key: powershell script
+content-length: 38
+
+{C64BD33B-D003-45C2-BEF5-D10E83B1CFDF}
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -49,14 +77,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-e2eef762-bce0-421b-8c75-a5945a5aa855
+1491fe07-5aa2-4d2c-a47f-6070bb47c00d
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20190529T120932Z
+20190529T131903Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

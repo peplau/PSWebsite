@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {3FA169B6-6F26-40E2-AEDE-C6C5968231E6}
+database: master
+path: /sitecore/templates/Feature/PSWebsite/IconBoxes/Icon Boxes Folder/__Standard Values
+parent: {D2EA6CEA-C702-4261-B07C-0C1F5CF90415}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {D2EA6CEA-C702-4261-B07C-0C1F5CF90415}
+templatekey: Icon Boxes Folder
+created: 20190529T122448Z
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 77
+
+{D2EA6CEA-C702-4261-B07C-0C1F5CF90415}|{48AD23EF-6F49-47CF-86DD-5124FF16AD48}
+----version----
+language: en
+version: 1
+revision: 9be70509-a5a5-44fc-a37f-80a5df3359c7
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190529T122448Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9be70509-a5a5-44fc-a37f-80a5df3359c7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190529T122746Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

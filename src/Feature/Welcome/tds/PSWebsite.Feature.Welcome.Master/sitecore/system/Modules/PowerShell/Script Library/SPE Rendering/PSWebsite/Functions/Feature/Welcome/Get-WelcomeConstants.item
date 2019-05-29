@@ -1,0 +1,68 @@
+----item----
+version: 1
+id: {C5983188-532A-4D7A-B823-4272D100866D}
+database: master
+path: /sitecore/system/Modules/PowerShell/Script Library/SPE Rendering/PSWebsite/Functions/Feature/Welcome/Get-WelcomeConstants
+parent: {6563C4CC-FC49-4104-AEDD-DD0CB3D959D3}
+name: Get-WelcomeConstants
+master: {00000000-0000-0000-0000-000000000000}
+template: {DD22F1B3-BD87-4DB2-9E7D-F7A496888D43}
+templatekey: PowerShell Script
+created: 20190529T134758Z
+
+----field----
+field: {B1A94FF0-6897-47C0-9C51-AA6ACB80B1F0}
+name: Script
+key: script
+content-length: 711
+
+function Get-WelcomeConstants {
+    [Sitecore.Foundation.SpeRendering.Constants]::ViewConstants.Welcome = [PSCustomObject]@{
+        ContainerClass  = New-Object Sitecore.Data.ID "{033C5FF2-E190-49C9-9A97-399C1E0455E2}"
+        Title           = New-Object Sitecore.Data.ID "{C274EDCC-7783-44AA-B034-9306ECB549B8}"
+        Content         = New-Object Sitecore.Data.ID "{C9138BE8-77DF-44A9-A9E6-05FD6B56F230}"
+        ButtonText      = New-Object Sitecore.Data.ID "{7E36A8A1-FBC3-4558-A9F0-40CA5B13428E}"
+        ButtonLink      = New-Object Sitecore.Data.ID "{18220BD7-F764-4B38-9AC1-FB27315A68DD}"
+        Image           = New-Object Sitecore.Data.ID "{6FF27F94-0630-4128-9076-AEB1A47BC41A}"
+    }
+}
+----version----
+language: en
+version: 1
+revision: ccf8853e-9737-463c-880c-415961750cb2
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190528T213006Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ccf8853e-9737-463c-880c-415961750cb2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190529T140424Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {3C48D6B3-07AB-4E9E-9364-1985925F5141}
+database: master
+path: /sitecore/templates/Branches/Project/PSWebsite/PSWebsite Components Folder/Components
+parent: {55C270C1-889A-4B3E-9820-D6ADE2FDB1DA}
+name: Components
+master: {00000000-0000-0000-0000-000000000000}
+template: {6E7AE41E-723B-42C2-9B61-1D28C7BB1EDA}
+templatekey: PSWebsite Components Folder
+created: 20190528T200310Z
+
+----version----
+language: en
+version: 1
+revision: febf3207-66e5-4b85-b5c8-49e59777f38f
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190528T200310Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+febf3207-66e5-4b85-b5c8-49e59777f38f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190528T200318Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

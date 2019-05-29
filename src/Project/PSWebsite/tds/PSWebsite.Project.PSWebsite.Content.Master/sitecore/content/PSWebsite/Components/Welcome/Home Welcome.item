@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {41BF6A02-1B55-42DF-A786-B36861BE2E87}
+database: master
+path: /sitecore/content/PSWebsite/Components/Welcome/Home Welcome
+parent: {03271A22-44B1-42FD-9559-5899B594BCC4}
+name: Home Welcome
+master: {00000000-0000-0000-0000-000000000000}
+template: {956D016F-E5CE-4655-8B15-E68E512F1280}
+templatekey: Welcome
+created: 20190529T135728Z
+
+----version----
+language: en
+version: 1
+revision: 2d332b6a-5a0b-4415-810a-6e9577c31fbe
+
+----field----
+field: {033C5FF2-E190-49C9-9A97-399C1E0455E2}
+name: Container Class
+key: container class
+content-length: 38
+
+{7C63D684-F9B2-4C9F-9176-E5B93D044B58}
+----field----
+field: {C274EDCC-7783-44AA-B034-9306ECB549B8}
+name: Title
+key: title
+content-length: 23
+
+Wellcome to our Charity
+----field----
+field: {C9138BE8-77DF-44A9-A9E6-05FD6B56F230}
+name: Content
+key: content
+content-length: 433
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris quis aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestibulum mauris quis aliquam. Integer accumsan sodales odio, id tempus velit ullamcorper id. Quisque at erat eu libero consequat tempus. Quisque molestie convallis tempus. Ut semper purus metus, a euismod sapien sodales ac. Duis viverra eleifend fermentum.
+----field----
+field: {7E36A8A1-FBC3-4558-A9F0-40CA5B13428E}
+name: Button Text
+key: button text
+content-length: 9
+
+Read More
+----field----
+field: {18220BD7-F764-4B38-9AC1-FB27315A68DD}
+name: Button Link
+key: button link
+content-length: 62
+
+<link linktype="anchor" text="#" title="#" url="" anchor="" />
+----field----
+field: {6FF27F94-0630-4128-9076-AEB1A47BC41A}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{CF506C28-1F66-4BA1-8422-678DCE544BC6}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190529T135728Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2d332b6a-5a0b-4415-810a-6e9577c31fbe
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190529T141631Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
