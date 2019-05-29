@@ -1,0 +1,67 @@
+﻿@using Sitecore.Data.Fields
+@using Sitecore.Mvc
+@using Sitecore.Foundation.SpeRendering
+@model Sitecore.Data.Items.Item
+@{
+    Layout = null;
+}
+<div class="@(Sitecore.Context.PageMode.IsExperienceEditorEditing ? "" : "swiper-slide hero-content-wrap")">
+    @{
+        object imageOptions = null;
+        if (Sitecore.Context.PageMode.IsExperienceEditorEditing)
+        {
+            imageOptions = new { w = 300 };
+        }
+    }
+    @Html.Sitecore().Field(Constants.ViewConstants.HeroSliderSlide.SlideImage.ToString(), Model, imageOptions)
+    <div class="@(Sitecore.Context.PageMode.IsExperienceEditorEditing ? "" : "hero-content-overlay position-absolute w-100 h-100")">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-12 col-lg-8 d-flex flex-column justify-content-center align-items-start">
+                    <header class="entry-header">
+                        <h1>
+                            @Html.Sitecore().Field(Constants.ViewConstants.HeroSliderSlide.SlideTitle.ToString(), Model)
+                        </h1>
+                        <h4>
+                            @Html.Sitecore().Field(Constants.ViewConstants.HeroSliderSlide.SlideSubtitle.ToString(), Model)
+                        </h4>
+                    </header><!-- .entry-header -->
+
+                    <div class="entry-content mt-4">
+                        <p>
+                            @Html.Sitecore().Field(Constants.ViewConstants.HeroSliderSlide.SlideContent.ToString(), Model)
+                        </p>
+                    </div><!-- .entry-content -->
+                    @{
+                        var showDonate = true;
+                        var showReadMore = true;
+                        if (!Sitecore.Context.PageMode.IsExperienceEditorEditing)
+                        {
+                            var donateTextField = (TextField)Model.Fields[Constants.ViewConstants.HeroSliderSlide.DonateText.ToString()];
+                            var readMoreTextField = (TextField)Model.Fields[Constants.ViewConstants.HeroSliderSlide.ReadMoreText.ToString()];
+                            showDonate = donateTextField != null && !string.IsNullOrEmpty(donateTextField.Value);
+                            showReadMore = readMoreTextField != null && !string.IsNullOrEmpty(readMoreTextField.Value);
+                        }
+                    }
+                    @if (showDonate || showReadMore)
+                    {
+                        <footer class="entry-footer d-flex flex-wrap align-items-center mt-5">
+                            @if (showDonate)
+                            {
+                                @Html.Sitecore().BeginField(Constants.ViewConstants.HeroSliderSlide.DonateLink.ToString(), Model, new { @class = "btn gradient-bg mr-2", haschildren = true })
+                                @Html.Sitecore().Field(Constants.ViewConstants.HeroSliderSlide.DonateText.ToString(), Model)
+                                @Html.Sitecore().EndField()
+                            }
+                            @if (showReadMore)
+                            {
+                                @Html.Sitecore().BeginField(Constants.ViewConstants.HeroSliderSlide.ReadMoreLink.ToString(), Model, new { @class = "btn orange-border", haschildren = true })
+                                @Html.Sitecore().Field(Constants.ViewConstants.HeroSliderSlide.ReadMoreText.ToString(), Model)
+                                @Html.Sitecore().EndField()
+                            }
+                        </footer><!-- .entry-footer -->
+                    }
+                </div><!-- .col -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </div><!-- .hero-content-overlay -->
+</div><!-- .hero-content-wrap -->

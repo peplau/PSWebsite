@@ -1,0 +1,11 @@
+﻿@using Sitecore.Mvc
+@{
+    Layout = null;
+}
+<div class="home-page-icon-boxes">
+    <div class="container">
+        <div class="@(Sitecore.Context.PageMode.IsExperienceEditorEditing ? "" : "row")">
+            @Html.Sitecore().DynamicPlaceholder("icon-boxes-container")
+        </div><!-- .row -->
+    </div><!-- .container -->
+</div><!-- .home-page-icon-boxes -->

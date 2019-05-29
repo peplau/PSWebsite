@@ -10,10 +10,17 @@ template: {6F2A46F2-6CEA-44C3-89EC-BD9CF3687818}
 templatekey: Settings
 created: 20190523T163456Z
 
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+300
 ----version----
 language: en
 version: 1
-revision: d9014087-f6c0-463f-906a-b76436c7ba25
+revision: becaad7f-5e87-44e9-9e17-b2afc9877ba6
 
 ----field----
 field: {CD280EF9-B030-4D8F-A6C0-49181B3A17D0}
@@ -119,14 +126,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-d9014087-f6c0-463f-906a-b76436c7ba25
+becaad7f-5e87-44e9-9e17-b2afc9877ba6
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20190527T212724Z
+20190528T200802Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

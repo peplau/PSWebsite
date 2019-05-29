@@ -1,0 +1,38 @@
+﻿@using Sitecore.Data.Fields
+@using Sitecore.Mvc
+@using Sitecore.Foundation.SpeRendering
+@model Sitecore.Data.Items.Item
+@{
+    Layout = null;
+    var highlightedField = (CheckboxField)Model.Fields[Constants.ViewConstants.IconBoxesBox.Highlighted.ToString()];
+    var isActive = highlightedField != null && highlightedField.Checked;
+}
+<div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
+    <div class="icon-box @(isActive ? "active" : "")">
+        
+        @if (Sitecore.Context.PageMode.IsExperienceEditorEditing)
+        {
+            @Html.Sitecore().Field(Constants.ViewConstants.IconBoxesBox.ImageGray.ToString(), Model)
+            @Html.Sitecore().Field(Constants.ViewConstants.IconBoxesBox.ImageWhite.ToString(), Model)
+        }
+        else
+        {
+            <figure class="d-flex justify-content-center">
+                @Html.Sitecore().Field(Constants.ViewConstants.IconBoxesBox.ImageGray.ToString(), Model)
+                @Html.Sitecore().Field(Constants.ViewConstants.IconBoxesBox.ImageWhite.ToString(), Model)
+            </figure>
+        }
+        
+        <header class="entry-header">
+            <h3 class="entry-title">
+                @Html.Sitecore().Field(Constants.ViewConstants.IconBoxesBox.Title.ToString(), Model)
+            </h3>
+        </header>
+
+        <div class="entry-content">
+            <p>
+                @Html.Sitecore().Field(Constants.ViewConstants.IconBoxesBox.Content.ToString(), Model)
+            </p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,152 @@
+----item----
+version: 1
+id: {CBFBF872-ED27-4D30-84DA-223374C4FCEA}
+database: master
+path: /sitecore/media library/PSWebsite/Images/Icon Boxes/donation-white
+parent: {59545E1D-9D2B-4ADF-AEDF-ACD88D7D3E3B}
+name: donation-white
+master: {00000000-0000-0000-0000-000000000000}
+template: {F1828A2C-7E5D-4BBD-98CA-320474871548}
+templatekey: Image
+created: 20190529T131018Z
+
+----field----
+field: {40E50ED9-BA07-4702-992E-A912738D32DC}
+name: Blob
+key: blob
+content-length: 3492
+
+iVBORw0KGgoAAAANSUhEUgAAAD0AAAA9CAYAAAAeYmHpAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2
+MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv
+IiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RS
+ZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpD
+cmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJ
+RD0ieG1wLmlpZDo0REI2OEJBRDU1QTIxMUU4OEEwOUVDNzI3Rjg3Nzc0MyIgeG1wTU06RG9jdW1l
+bnRJRD0ieG1wLmRpZDo0REI2OEJBRTU1QTIxMUU4OEEwOUVDNzI3Rjg3Nzc0MyI+IDx4bXBNTTpE
+ZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjREQjY4QkFCNTVBMjExRTg4QTA5
+RUM3MjdGODc3NzQzIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjREQjY4QkFDNTVBMjExRTg4
+QTA5RUM3MjdGODc3NzQzIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBt
+ZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+xlYKRAAABmxJREFUeNrcm3lsFVUUxl9rKcrSCo1sVmkp
+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
+----field----
+field: {22EAC599-F13B-4607-A89D-C091763A467D}
+name: Width
+key: width
+content-length: 2
+
+61
+----field----
+field: {DE2CA9E4-C117-4C8A-A139-1FF4B199D15A}
+name: Height
+key: height
+content-length: 2
+
+61
+----field----
+field: {C06867FE-9A43-4C7D-B739-48780492D06F}
+name: Extension
+key: extension
+content-length: 3
+
+png
+----field----
+field: {6F47A0A5-9C94-4B48-ABEB-42D38DEF6054}
+name: Mime Type
+key: mime type
+content-length: 9
+
+image/png
+----field----
+field: {6954B7C7-2487-423F-8600-436CB3B6DC0E}
+name: Size
+key: size
+content-length: 4
+
+2551
+----field----
+field: {CB09946F-3218-4823-87D2-D5007C199A96}
+name: Dimensions
+key: dimensions
+content-length: 7
+
+61 x 61
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 61
+
+-/media/cbfbf872ed274d3084da223374c4fcea.ashx?h=16&thn=1&w=16
+----version----
+language: en
+version: 1
+revision: 83411969-297e-45be-8734-46c9a326e39f
+
+----field----
+field: {65885C44-8FCD-4A7F-94F1-EE63703FE193}
+name: Alt
+key: alt
+content-length: 14
+
+donation-white
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190529T131018Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+83411969-297e-45be-8734-46c9a326e39f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190529T131018Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

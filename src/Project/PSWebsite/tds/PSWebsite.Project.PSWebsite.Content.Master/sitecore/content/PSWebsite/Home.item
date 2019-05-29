@@ -10,10 +10,17 @@ template: {12AD406B-AD80-4E90-B1BF-E8F053C50828}
 templatekey: Homepage
 created: 20190523T163440Z
 
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+100
 ----version----
 language: en
 version: 1
-revision: b968d42c-0fbd-4d42-9d8c-f1bf3787fd59
+revision: ea639e18-c3ba-47e5-bdfe-ae3a799ecf8a
 
 ----field----
 field: {2682104C-BBC4-41F3-80D7-2D5827048702}
@@ -22,6 +29,13 @@ key: page title
 content-length: 4
 
 Home
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1208
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{E59D4816-1E22-4022-84C8-762C81EFF050}" p:before="*" s:ds="{5AF7E7CE-618B-4DA4-B7CC-E438B54D68DA}" s:id="{7BC90471-1379-4BA5-8449-589E94D189FB}" s:ph="/body/icon-boxes-container-{C01CDB34-E290-4A74-9572-35B28C9C21C4}-0" /><r uid="{5F11E376-A657-4270-8A23-0B93DA82F9FB}" p:after="r[@uid='{E59D4816-1E22-4022-84C8-762C81EFF050}']" s:ds="{5AF60740-3956-4BE3-8592-6C8C264CD3AF}" s:id="{A378E5EE-1C3A-4479-8E7B-7D10E4BE1F2E}" s:ph="/body/hero-slider-container-{811DC55E-E41E-4646-848E-BE262F1D188B}-0" /><r uid="{1DB87464-95EA-404F-8C44-9108531D798A}" p:after="r[@uid='{5F11E376-A657-4270-8A23-0B93DA82F9FB}']" s:ds="{5DB459E1-CBB5-46DD-8799-681106EA869F}" s:id="{A378E5EE-1C3A-4479-8E7B-7D10E4BE1F2E}" s:ph="/body/hero-slider-container-{811DC55E-E41E-4646-848E-BE262F1D188B}-0" /><r uid="{811DC55E-E41E-4646-848E-BE262F1D188B}" p:after="r[@uid='{88A65385-D64A-4E40-A115-DCD3643B3161}']" s:id="{F9D0AF14-6BF4-4700-810B-F0C9F69E731E}" s:ph="body" /><r uid="{C01CDB34-E290-4A74-9572-35B28C9C21C4}" p:after="r[@uid='{811DC55E-E41E-4646-848E-BE262F1D188B}']" s:id="{840CB4E7-1B50-4EF0-AC16-124E34BEF770}" s:ph="body" /></d></r>
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -35,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b968d42c-0fbd-4d42-9d8c-f1bf3787fd59
+ea639e18-c3ba-47e5-bdfe-ae3a799ecf8a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20190523T205907Z
+20190529T125935Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -50,3 +64,10 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

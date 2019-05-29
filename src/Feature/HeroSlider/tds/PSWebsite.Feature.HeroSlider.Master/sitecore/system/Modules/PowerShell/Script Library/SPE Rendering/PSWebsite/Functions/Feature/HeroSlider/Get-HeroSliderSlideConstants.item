@@ -1,0 +1,70 @@
+----item----
+version: 1
+id: {49730002-4E77-42D1-8584-675CF103C08D}
+database: master
+path: /sitecore/system/Modules/PowerShell/Script Library/SPE Rendering/PSWebsite/Functions/Feature/HeroSlider/Get-HeroSliderSlideConstants
+parent: {20CE1E0C-29A9-4256-B7F3-4816B36F02BE}
+name: Get-HeroSliderSlideConstants
+master: {00000000-0000-0000-0000-000000000000}
+template: {DD22F1B3-BD87-4DB2-9E7D-F7A496888D43}
+templatekey: PowerShell Script
+created: 20190528T213006Z
+
+----field----
+field: {B1A94FF0-6897-47C0-9C51-AA6ACB80B1F0}
+name: Script
+key: script
+content-length: 919
+
+function Get-HeroSliderSlideConstants {
+    [Sitecore.Foundation.SpeRendering.Constants]::ViewConstants.HeroSliderSlide = [PSCustomObject]@{
+        SlideImage      = New-Object Sitecore.Data.ID "{1B1877E1-64E2-47DF-B3F6-4276D5574C04}"
+        SlideTitle      = New-Object Sitecore.Data.ID "{55E64D4C-8D8A-4508-AB10-B0D084DBECF8}"
+        SlideSubtitle   = New-Object Sitecore.Data.ID "{E4932BA0-6C53-44B8-9E08-195B25383882}"
+        SlideContent    = New-Object Sitecore.Data.ID "{C2035890-8395-4883-AF48-06B70A0A4C3E}"
+        DonateText      = New-Object Sitecore.Data.ID "{63DE31E2-17D9-4337-BC47-A7A345EE0740}"
+        DonateLink      = New-Object Sitecore.Data.ID "{B8A28699-E10B-46D9-89FA-19995C5C4A07}"
+        ReadMoreText    = New-Object Sitecore.Data.ID "{B2B0A7C1-E5DA-41B1-A676-6CF9379B125F}"
+        ReadMoreLink    = New-Object Sitecore.Data.ID "{982F25B3-E5FA-4A0D-B332-2393B73CFA30}"
+    }
+}
+----version----
+language: en
+version: 1
+revision: ea2ebd43-8845-4a20-adb7-b7c4d4bea577
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190528T213006Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ea2ebd43-8845-4a20-adb7-b7c4d4bea577
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190528T213322Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

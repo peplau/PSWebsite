@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {8FCC42DE-915C-494A-A6AF-22E30DA844AA}
+database: master
+path: /sitecore/content/PSWebsite/Components/Hero Slider
+parent: {7621ADB3-E883-49AE-852D-EE421E82C420}
+name: Hero Slider
+master: {0A97C592-6F10-4FDE-95C1-448CD5B6CF63}
+template: {408EFDA4-FD31-46E2-96B9-7AC1964593F3}
+templatekey: Hero Slider Folder
+created: 20190528T200735Z
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{5E410826-95AA-49FD-949D-307D40BBFA2E}
+----version----
+language: en
+version: 1
+revision: 51f5ea93-6405-426d-8e5c-b8d301d6b6d2
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190528T200735Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+51f5ea93-6405-426d-8e5c-b8d301d6b6d2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190528T200735Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

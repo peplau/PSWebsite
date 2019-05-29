@@ -17,10 +17,17 @@ key: placeholder key
 content-length: 4
 
 body
+----field----
+field: {E391B526-D0C5-439D-803E-17512EAE6222}
+name: Allowed Controls
+key: allowed controls
+content-length: 38
+
+{F9D0AF14-6BF4-4700-810B-F0C9F69E731E}
 ----version----
 language: en
 version: 1
-revision: 1769f790-75bc-48b3-bca1-ff7cd279f9db
+revision: 0b6ab392-0728-4f84-8324-018856fc0cfd
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -35,14 +42,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1769f790-75bc-48b3-bca1-ff7cd279f9db
+0b6ab392-0728-4f84-8324-018856fc0cfd
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20190523T214230Z
+20190528T195407Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

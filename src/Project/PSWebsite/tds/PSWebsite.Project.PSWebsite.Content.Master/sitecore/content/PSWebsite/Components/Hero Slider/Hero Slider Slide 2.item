@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {5DB459E1-CBB5-46DD-8799-681106EA869F}
+database: master
+path: /sitecore/content/PSWebsite/Components/Hero Slider/Hero Slider Slide 2
+parent: {8FCC42DE-915C-494A-A6AF-22E30DA844AA}
+name: Hero Slider Slide 2
+master: {00000000-0000-0000-0000-000000000000}
+template: {57A06EF7-A4AC-4943-AB35-8E824A2CE209}
+templatekey: Hero Slider Slide
+created: 20190528T222133Z
+
+----version----
+language: en
+version: 1
+revision: 56b47902-c1e2-427c-8c6a-02a9d1e841f2
+
+----field----
+field: {1B1877E1-64E2-47DF-B3F6-4276D5574C04}
+name: Slide Image
+key: slide image
+content-length: 58
+
+<image mediaid="{39BD5297-A80B-4ECA-956C-84E0B1CAB5B9}" />
+----field----
+field: {55E64D4C-8D8A-4508-AB10-B0D084DBECF8}
+name: Slide Title
+key: slide title
+content-length: 17
+
+Don't think twice
+----field----
+field: {E4932BA0-6C53-44B8-9E08-195B25383882}
+name: Slide Subtitle
+key: slide subtitle
+content-length: 25
+
+Just go ahead and donate!
+----field----
+field: {C2035890-8395-4883-AF48-06B70A0A4C3E}
+name: Slide Content
+key: slide content
+content-length: 155
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestibulum mauris quis aliquam. Integer accumsan sodales odio, id tempus ullamcorper
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190528T212308Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+56b47902-c1e2-427c-8c6a-02a9d1e841f2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190528T223952Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

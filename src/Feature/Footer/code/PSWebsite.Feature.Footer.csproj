@@ -106,7 +106,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\PublishProfiles\Local.pubxml" />
-    <Content Include="Views\web.config" />
+    <None Include="Views\web.config" />
     <Content Include="Views\PSWebsite\Footer\FooterWidgets.cshtml" />
     <Content Include="Views\PSWebsite\Footer\FooterBar.cshtml" />
     <None Include="web.config" />
