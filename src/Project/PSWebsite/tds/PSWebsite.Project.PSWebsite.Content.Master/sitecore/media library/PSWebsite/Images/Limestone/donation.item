@@ -1,0 +1,180 @@
+----item----
+version: 1
+id: {09E6C097-C3D7-430E-B47C-D518367C37B8}
+database: master
+path: /sitecore/media library/PSWebsite/Images/Limestone/donation
+parent: {F2518824-0CEA-4DCA-B233-0D3DB99F8710}
+name: donation
+master: {00000000-0000-0000-0000-000000000000}
+template: {F1828A2C-7E5D-4BBD-98CA-320474871548}
+templatekey: Image
+created: 20190529T220609Z
+
+----field----
+field: {40E50ED9-BA07-4702-992E-A912738D32DC}
+name: Blob
+key: blob
+content-length: 5628
+
+iVBORw0KGgoAAAANSUhEUgAAAFIAAABSCAYAAADHLIObAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2
+MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv
+IiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RS
+ZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpD
+cmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJ
+RD0ieG1wLmlpZDo4OEFGNjc2RDU1M0UxMUU4QThCQkY1QkM5RjZFMjJDOCIgeG1wTU06RG9jdW1l
+bnRJRD0ieG1wLmRpZDo4OEFGNjc2RTU1M0UxMUU4QThCQkY1QkM5RjZFMjJDOCI+IDx4bXBNTTpE
+ZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjg4QUY2NzZCNTUzRTExRThBOEJC
+RjVCQzlGNkUyMkM4IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjg4QUY2NzZDNTUzRTExRThB
+OEJCRjVCQzlGNkUyMkM4Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBt
+ZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8++7zHhAAADIVJREFUeNrcXQuUVVUZ3ndmGh4SIa/hIQSh
+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
+SUVORK5CYII=
+----field----
+field: {22EAC599-F13B-4607-A89D-C091763A467D}
+name: Width
+key: width
+content-length: 2
+
+82
+----field----
+field: {DE2CA9E4-C117-4C8A-A139-1FF4B199D15A}
+name: Height
+key: height
+content-length: 2
+
+82
+----field----
+field: {C06867FE-9A43-4C7D-B739-48780492D06F}
+name: Extension
+key: extension
+content-length: 3
+
+png
+----field----
+field: {6F47A0A5-9C94-4B48-ABEB-42D38DEF6054}
+name: Mime Type
+key: mime type
+content-length: 9
+
+image/png
+----field----
+field: {6954B7C7-2487-423F-8600-436CB3B6DC0E}
+name: Size
+key: size
+content-length: 4
+
+4112
+----field----
+field: {CB09946F-3218-4823-87D2-D5007C199A96}
+name: Dimensions
+key: dimensions
+content-length: 7
+
+82 x 82
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 61
+
+-/media/09e6c097c3d7430eb47cd518367c37b8.ashx?h=16&thn=1&w=16
+----version----
+language: en
+version: 1
+revision: fdfc5052-8d1a-4807-b878-8f5705d053a9
+
+----field----
+field: {65885C44-8FCD-4A7F-94F1-EE63703FE193}
+name: Alt
+key: alt
+content-length: 8
+
+donation
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190529T220609Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fdfc5052-8d1a-4807-b878-8f5705d053a9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190529T220610Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

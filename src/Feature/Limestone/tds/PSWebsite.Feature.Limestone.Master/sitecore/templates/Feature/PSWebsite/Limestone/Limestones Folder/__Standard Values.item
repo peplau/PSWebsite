@@ -1,26 +1,26 @@
 ----item----
 version: 1
-id: {3E59502D-E6B8-4751-8D6B-5DEE27DA325A}
+id: {A0090667-EDA0-46C5-BAEB-91D694F38D47}
 database: master
-path: /sitecore/templates/Project/PSWebsite/PSWebsite Components Folder/__Standard Values
-parent: {6E7AE41E-723B-42C2-9B61-1D28C7BB1EDA}
+path: /sitecore/templates/Feature/PSWebsite/Limestone/Limestones Folder/__Standard Values
+parent: {3688B137-8572-479C-8C30-55D1F5AA1E50}
 name: __Standard Values
 master: {00000000-0000-0000-0000-000000000000}
-template: {6E7AE41E-723B-42C2-9B61-1D28C7BB1EDA}
-templatekey: PSWebsite Components Folder
-created: 20190528T200116Z
+template: {3688B137-8572-479C-8C30-55D1F5AA1E50}
+templatekey: Limestones Folder
+created: 20190529T211210Z
 
 ----field----
 field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
 name: __Masters
 key: __masters
-content-length: 155
+content-length: 116
 
-{0A97C592-6F10-4FDE-95C1-448CD5B6CF63}|{F04FED30-0AE3-4B33-9B22-81EF78A31636}|{471D8B3E-75EC-4317-AB7C-812469FAB5C1}|{30464C04-CA17-47A3-BBBE-CF5D1B403987}
+{3688B137-8572-479C-8C30-55D1F5AA1E50}|{52083947-006C-4410-8B50-3943679807CC}|{CAD40EE7-0133-44E2-BE27-C4F9CB6FFABD}
 ----version----
 language: en
 version: 1
-revision: 488a2232-fb30-45dc-8d9a-e19fc48bf980
+revision: e390796b-c5b6-4586-9b61-269833d287b3
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -35,7 +35,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20190528T200116Z
+20190529T211210Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -49,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-488a2232-fb30-45dc-8d9a-e19fc48bf980
+e390796b-c5b6-4586-9b61-269833d287b3
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20190529T212117Z
+20190529T211802Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

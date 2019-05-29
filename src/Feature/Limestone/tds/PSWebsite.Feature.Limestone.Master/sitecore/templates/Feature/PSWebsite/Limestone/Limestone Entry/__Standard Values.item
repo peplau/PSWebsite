@@ -1,27 +1,34 @@
 ----item----
 version: 1
-id: {3E59502D-E6B8-4751-8D6B-5DEE27DA325A}
+id: {41AB101D-2E8F-41E0-8C80-68403D635D24}
 database: master
-path: /sitecore/templates/Project/PSWebsite/PSWebsite Components Folder/__Standard Values
-parent: {6E7AE41E-723B-42C2-9B61-1D28C7BB1EDA}
+path: /sitecore/templates/Feature/PSWebsite/Limestone/Limestone Entry/__Standard Values
+parent: {CAD40EE7-0133-44E2-BE27-C4F9CB6FFABD}
 name: __Standard Values
 master: {00000000-0000-0000-0000-000000000000}
-template: {6E7AE41E-723B-42C2-9B61-1D28C7BB1EDA}
-templatekey: PSWebsite Components Folder
-created: 20190528T200116Z
+template: {CAD40EE7-0133-44E2-BE27-C4F9CB6FFABD}
+templatekey: Limestone Entry
+created: 20190529T211518Z
 
-----field----
-field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
-name: __Masters
-key: __masters
-content-length: 155
-
-{0A97C592-6F10-4FDE-95C1-448CD5B6CF63}|{F04FED30-0AE3-4B33-9B22-81EF78A31636}|{471D8B3E-75EC-4317-AB7C-812469FAB5C1}|{30464C04-CA17-47A3-BBBE-CF5D1B403987}
 ----version----
 language: en
 version: 1
-revision: 488a2232-fb30-45dc-8d9a-e19fc48bf980
+revision: 37e9aa5f-3716-405c-831c-533c5c73a113
 
+----field----
+field: {CCEAC14D-C7E9-47CB-9D23-931EF2FF51C1}
+name: Counter Speed
+key: counter speed
+content-length: 4
+
+2000
+----field----
+field: {2FD19960-1D17-4E73-AB12-55D249ED761B}
+name: Bottom Text
+key: bottom text
+content-length: 5
+
+$name
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -35,7 +42,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20190528T200116Z
+20190529T211518Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -49,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-488a2232-fb30-45dc-8d9a-e19fc48bf980
+37e9aa5f-3716-405c-831c-533c5c73a113
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20190529T212117Z
+20190529T214533Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -1,0 +1,50 @@
+﻿@using Sitecore.Data.Fields
+@using Sitecore.Mvc
+@using Sitecore.Foundation.SpeRendering
+@using Sitecore.Globalization
+@model Sitecore.Data.Items.Item
+@{
+    Layout = null;
+}
+<div class="col-12 col-sm-4 mt-5 mt-lg-0">
+    <div class="counter-box">
+        <div class="d-flex justify-content-center align-items-center">
+            @Html.Sitecore().Field(Constants.ViewConstants.LimestoneEntry.Image.ToString(), Model)
+        </div>
+
+        <div class="d-flex justify-content-center align-items-baseline">
+            @if (!Sitecore.Context.PageMode.IsExperienceEditorEditing)
+            {
+                var toField = (TextField)Model.Fields[Constants.ViewConstants.LimestoneEntry.CounterTo.ToString()];
+                var speedField = (TextField)Model.Fields[Constants.ViewConstants.LimestoneEntry.CounterSpeed.ToString()];
+                <div class="start-counter" data-to="@toField.Value" data-speed="@speedField.Value"></div>
+            }
+            else
+            {
+                <div>
+                    <p>
+                        @Html.Sitecore().Field(Constants.ViewConstants.LimestoneEntry.CounterTo.ToString(), Model)
+                    </p>
+                    <p>
+                        @Translate.Text("Speed:")
+                        @Html.Sitecore().Field(Constants.ViewConstants.LimestoneEntry.CounterSpeed.ToString(), Model)
+                    </p>
+                </div>
+            }
+
+            @{
+                var unitField = (TextField)Model.Fields[Constants.ViewConstants.LimestoneEntry.CounterUnit.ToString()];
+                var showUnit = Sitecore.Context.PageMode.IsExperienceEditorEditing || unitField != null && !string.IsNullOrEmpty(unitField.Value);
+            }
+            @if (showUnit)
+            {
+                <div class="counter-k">
+                    @Html.Sitecore().Field(Constants.ViewConstants.LimestoneEntry.CounterUnit.ToString(), Model)
+                </div>
+            }
+        </div>
+        <h3 class="entry-title">
+            @Html.Sitecore().Field(Constants.ViewConstants.LimestoneEntry.BottomText.ToString(), Model)
+        </h3><!-- entry-title -->
+    </div><!-- counter-box -->
+</div><!-- .col -->

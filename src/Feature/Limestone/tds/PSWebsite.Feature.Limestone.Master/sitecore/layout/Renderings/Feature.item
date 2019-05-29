@@ -1,26 +1,33 @@
 ----item----
 version: 1
-id: {3E59502D-E6B8-4751-8D6B-5DEE27DA325A}
+id: {DA61AD50-8FDB-4252-A68F-B4470B1C9FE8}
 database: master
-path: /sitecore/templates/Project/PSWebsite/PSWebsite Components Folder/__Standard Values
-parent: {6E7AE41E-723B-42C2-9B61-1D28C7BB1EDA}
-name: __Standard Values
+path: /sitecore/layout/Renderings/Feature
+parent: {32566F0E-7686-45F1-A12F-D7260BD78BC3}
+name: Feature
 master: {00000000-0000-0000-0000-000000000000}
-template: {6E7AE41E-723B-42C2-9B61-1D28C7BB1EDA}
-templatekey: PSWebsite Components Folder
-created: 20190528T200116Z
+template: {7EE0975B-0698-493E-B3A2-0B2EF33D0522}
+templatekey: Rendering Folder
+created: 20181101T095340Z
 
 ----field----
-field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
-name: __Masters
-key: __masters
-content-length: 155
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 35
 
-{0A97C592-6F10-4FDE-95C1-448CD5B6CF63}|{F04FED30-0AE3-4B33-9B22-81EF78A31636}|{471D8B3E-75EC-4317-AB7C-812469FAB5C1}|{30464C04-CA17-47A3-BBBE-CF5D1B403987}
+applications/32x32/folder_cubes.png
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+150
 ----version----
 language: en
 version: 1
-revision: 488a2232-fb30-45dc-8d9a-e19fc48bf980
+revision: 6cd8ef20-a34c-4065-8a85-f5b01925a754
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -35,7 +42,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20190528T200116Z
+20150824T174129Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -49,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-488a2232-fb30-45dc-8d9a-e19fc48bf980
+6cd8ef20-a34c-4065-8a85-f5b01925a754
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20190529T212117Z
+20180718T163239Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

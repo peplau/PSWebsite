@@ -1,0 +1,28 @@
+﻿@using Sitecore.Data.Fields
+@using Sitecore.Mvc
+@using Sitecore.Foundation.SpeRendering
+@model Sitecore.Data.Items.Item
+@{
+    Layout = null;
+}
+<div class="home-page-limestone">
+    <div class="container">
+        <div class="row align-items-end">
+            <div class="coL-12 col-lg-6">
+                <div class="section-heading">
+                    <h2 class="entry-title">
+                        @Html.Sitecore().Field(Constants.ViewConstants.LimestoneContainer.Title.ToString(), Model)
+                    </h2>
+                    <p class="mt-5">
+                        @Html.Sitecore().Field(Constants.ViewConstants.LimestoneContainer.Content.ToString(), Model)
+                    </p>
+                </div><!-- .section-heading -->
+            </div><!-- .col -->
+            <div class="col-12 col-lg-6">
+                <div class="@(Sitecore.Context.PageMode.IsExperienceEditorEditing ? "" : "milestones d-flex flex-wrap justify-content-between")">
+                    @Html.Sitecore().DynamicPlaceholder("limestone-container")
+                </div><!-- .milestones -->
+            </div><!-- .col -->
+        </div><!-- .row -->
+    </div><!-- .container -->
+</div><!-- .our-causes -->
