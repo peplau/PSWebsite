@@ -92,6 +92,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSWebsite.Feature.Limestone
 EndProject
 Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "PSWebsite.Feature.Limestone.Master", "src\Feature\Limestone\tds\PSWebsite.Feature.Limestone.Master\PSWebsite.Feature.Limestone.Master.scproj", "{43C5373E-E55D-4A20-8700-133516A96A6A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Grids", "Grids", "{75FB1B2A-D152-4410-8E19-1DF7F840F089}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSWebsite.Feature.Grids", "src\Feature\Grids\code\PSWebsite.Feature.Grids.csproj", "{89B018AE-ED17-4298-9E52-127D782EFF54}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "PSWebsite.Feature.Grids.Master", "src\Feature\Grids\tds\PSWebsite.Feature.Grids.Master\PSWebsite.Feature.Grids.Master.scproj", "{F998C898-2067-4CB5-9EC8-E893D7CE272D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -236,6 +242,16 @@ Global
 		{43C5373E-E55D-4A20-8700-133516A96A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43C5373E-E55D-4A20-8700-133516A96A6A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{43C5373E-E55D-4A20-8700-133516A96A6A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{89B018AE-ED17-4298-9E52-127D782EFF54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89B018AE-ED17-4298-9E52-127D782EFF54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89B018AE-ED17-4298-9E52-127D782EFF54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89B018AE-ED17-4298-9E52-127D782EFF54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F998C898-2067-4CB5-9EC8-E893D7CE272D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F998C898-2067-4CB5-9EC8-E893D7CE272D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F998C898-2067-4CB5-9EC8-E893D7CE272D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F998C898-2067-4CB5-9EC8-E893D7CE272D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F998C898-2067-4CB5-9EC8-E893D7CE272D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F998C898-2067-4CB5-9EC8-E893D7CE272D}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -280,6 +296,9 @@ Global
 		{146BB202-2F3B-497E-8062-2DB51C11B2E0} = {A4601EE5-504D-4E6F-B630-36E0AFF98492}
 		{83456908-2753-41B9-BA65-03094DDDA876} = {146BB202-2F3B-497E-8062-2DB51C11B2E0}
 		{43C5373E-E55D-4A20-8700-133516A96A6A} = {146BB202-2F3B-497E-8062-2DB51C11B2E0}
+		{75FB1B2A-D152-4410-8E19-1DF7F840F089} = {A4601EE5-504D-4E6F-B630-36E0AFF98492}
+		{89B018AE-ED17-4298-9E52-127D782EFF54} = {75FB1B2A-D152-4410-8E19-1DF7F840F089}
+		{F998C898-2067-4CB5-9EC8-E893D7CE272D} = {75FB1B2A-D152-4410-8E19-1DF7F840F089}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EF174A99-78E5-4DD2-85DB-610DD08FD083}
