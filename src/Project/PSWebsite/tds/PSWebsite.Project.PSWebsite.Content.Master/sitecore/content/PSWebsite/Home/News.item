@@ -13,7 +13,7 @@ created: 20190524T214533Z
 ----version----
 language: en
 version: 1
-revision: f9294647-f9e1-4c22-a08f-a54cb92f2ce8
+revision: 8e21de0e-5028-4937-85d3-8d011a931cd7
 
 ----field----
 field: {DE83AB31-E09F-4DF2-A612-7AE6082D9A59}
@@ -30,6 +30,13 @@ content-length: 4
 
 News
 ----field----
+field: {EEDE8440-4E3B-460D-ABB3-66FEB9EB7313}
+name: Header Image
+key: header image
+content-length: 58
+
+<image mediaid="{857403FD-4FAC-4303-9977-B07B7E41DEB5}" />
+----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
@@ -42,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-f9294647-f9e1-4c22-a08f-a54cb92f2ce8
+8e21de0e-5028-4937-85d3-8d011a931cd7
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20190524T214533Z
+20190705T222302Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

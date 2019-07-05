@@ -7,8 +7,8 @@
 @model Sitecore.Data.Items.Item
 @{
     Layout = null;
-    var field = (LinkField) Model.Fields[Constants.ViewConstants._MainNavigationSettings.NavigationRoot.ToString()];
-    var navigationRoot = (field == null ? null: field.TargetItem) ?? Sitecore.Context.Item;
+    var field = (LookupField)Model.Fields[Constants.ViewConstants._MainNavigationSettings.NavigationRoot.ToString()];
+    var navigationRoot = (field == null ? null : field.TargetItem) ?? Sitecore.Context.Item;
 }
 <div class="nav-bar">
     <div class="container">
@@ -29,8 +29,8 @@
                         </li>
                         @foreach (var pageItem in navigationRoot.Children.Where(p => p.Fields[Constants.ViewConstants._BaseNavigation.ShowInNavigation.ToString()] != null && ((CheckboxField)p.Fields[Constants.ViewConstants._BaseNavigation.ShowInNavigation.ToString()]).Checked))
                         {
-                            <li>
-                                <a href="@(LinkManager.GetItemUrl(pageItem))" class="@(Sitecore.Context.Item.ID==pageItem.ID?"current-menu-item":"")">
+                            <li class="@(Sitecore.Context.Item.ID==pageItem.ID?"current-menu-item":"")">
+                                <a href="@(LinkManager.GetItemUrl(pageItem))">
                                     @Html.Sitecore().Field(Constants.ViewConstants._BaseNavigation.NavigationTitle.ToString(), pageItem, new { disable_web_editing=true })
                                 </a>
                             </li>

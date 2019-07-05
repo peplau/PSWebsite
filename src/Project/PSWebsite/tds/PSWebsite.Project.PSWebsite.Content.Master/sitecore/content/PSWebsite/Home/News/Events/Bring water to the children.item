@@ -1,0 +1,101 @@
+----item----
+version: 1
+id: {2E406195-2EBF-43C7-85EA-6BD1B0957A20}
+database: master
+path: /sitecore/content/PSWebsite/Home/News/Events/Bring water to the children
+parent: {BEFA986F-8A79-4FDE-B554-80BB333A3F19}
+name: Bring water to the children
+master: {00000000-0000-0000-0000-000000000000}
+template: {62FB8F30-017F-4BE4-8B3D-173E4B3B896F}
+templatekey: Event
+created: 20190530T145457Z
+
+----version----
+language: en
+version: 1
+revision: 3ac21879-0706-4cff-a6c4-6ee383690ad0
+
+----field----
+field: {EAE5E9C7-1C8A-46C5-BCD4-29F849A3571C}
+name: Event Name
+key: event name
+content-length: 27
+
+Bring water to the children
+----field----
+field: {2AB670BF-D105-4803-98B2-CF6E78451EA0}
+name: Event Picture
+key: event picture
+content-length: 58
+
+<image mediaid="{F5141618-7268-49E6-B9D5-3584110C5A26}" />
+----field----
+field: {839A73E6-ED79-4BE7-8825-B784B6B6104C}
+name: Event Date
+key: event date
+content-length: 16
+
+20191101T030000Z
+----field----
+field: {1ECBAB8C-63C8-4C3E-8815-856715F8FA83}
+name: Event Venue
+key: event venue
+content-length: 19
+
+ Ball Room New York
+----field----
+field: {C7478CF0-20D1-46D7-ADE7-F721EFCE65D8}
+name: Event Summary
+key: event summary
+content-length: 90
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris.
+----field----
+field: {92239079-86A5-4540-94B9-D9BD7128250E}
+name: Event Text
+key: event text
+content-length: 90
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris.
+----field----
+field: {DE83AB31-E09F-4DF2-A612-7AE6082D9A59}
+name: Navigation Title
+key: navigation title
+content-length: 19
+
+Fundraiser for Kids
+----field----
+field: {2682104C-BBC4-41F3-80D7-2D5827048702}
+name: Page Title
+key: page title
+content-length: 19
+
+Fundraiser for Kids
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190530T145045Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3ac21879-0706-4cff-a6c4-6ee383690ad0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190530T145517Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

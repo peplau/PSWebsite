@@ -1,0 +1,68 @@
+----item----
+version: 1
+id: {0970E58A-2AA6-4378-9E52-05D65397B643}
+database: master
+path: /sitecore/system/Modules/PowerShell/Script Library/SPE Rendering/PSWebsite/Functions/Feature/Events/Get-EventConstants
+parent: {13A06465-69B0-4DC4-822A-8DD6CB80DAB0}
+name: Get-EventConstants
+master: {00000000-0000-0000-0000-000000000000}
+template: {DD22F1B3-BD87-4DB2-9E7D-F7A496888D43}
+templatekey: PowerShell Script
+created: 20190530T150258Z
+
+----field----
+field: {B1A94FF0-6897-47C0-9C51-AA6ACB80B1F0}
+name: Script
+key: script
+content-length: 708
+
+function Get-EventConstants {
+    [Sitecore.Foundation.SpeRendering.Constants]::ViewConstants._Event = [PSCustomObject]@{
+        EventName       = New-Object Sitecore.Data.ID "{EAE5E9C7-1C8A-46C5-BCD4-29F849A3571C}"
+        EventPicture    = New-Object Sitecore.Data.ID "{2AB670BF-D105-4803-98B2-CF6E78451EA0}"
+        EventDate       = New-Object Sitecore.Data.ID "{839A73E6-ED79-4BE7-8825-B784B6B6104C}"
+        EventVenue      = New-Object Sitecore.Data.ID "{1ECBAB8C-63C8-4C3E-8815-856715F8FA83}"
+        EventSummary    = New-Object Sitecore.Data.ID "{C7478CF0-20D1-46D7-ADE7-F721EFCE65D8}"
+        EventText       = New-Object Sitecore.Data.ID "{92239079-86A5-4540-94B9-D9BD7128250E}"
+    }
+}
+----version----
+language: en
+version: 1
+revision: 43e7d190-0fc5-42d1-a366-6e0ddd6dc893
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190527T205545Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+43e7d190-0fc5-42d1-a366-6e0ddd6dc893
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190530T150453Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

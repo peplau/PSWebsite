@@ -13,7 +13,7 @@ created: 20190524T214527Z
 ----version----
 language: en
 version: 1
-revision: 368ef415-e4f0-49a3-a99c-bc505c4b6bfa
+revision: f2443f9c-8b63-4e5a-b8b8-dbc63b33d919
 
 ----field----
 field: {DE83AB31-E09F-4DF2-A612-7AE6082D9A59}
@@ -30,6 +30,13 @@ content-length: 7
 
 Gallery
 ----field----
+field: {EEDE8440-4E3B-460D-ABB3-66FEB9EB7313}
+name: Header Image
+key: header image
+content-length: 58
+
+<image mediaid="{20B384BF-EF3A-4E5B-BA65-2642A253C4E6}" />
+----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
@@ -42,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-368ef415-e4f0-49a3-a99c-bc505c4b6bfa
+f2443f9c-8b63-4e5a-b8b8-dbc63b33d919
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20190524T214527Z
+20190705T222226Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

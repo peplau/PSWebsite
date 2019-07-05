@@ -13,7 +13,7 @@ created: 20190524T214518Z
 ----version----
 language: en
 version: 1
-revision: 5da4c377-ca3a-454a-9a40-4d2528872d84
+revision: 48c95057-a65a-4a7d-a3a3-d20c05359514
 
 ----field----
 field: {DE83AB31-E09F-4DF2-A612-7AE6082D9A59}
@@ -30,6 +30,13 @@ content-length: 6
 
 Causes
 ----field----
+field: {EEDE8440-4E3B-460D-ABB3-66FEB9EB7313}
+name: Header Image
+key: header image
+content-length: 58
+
+<image mediaid="{789C10B5-BE29-4AD3-9E50-2A5F8028721F}" />
+----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
@@ -42,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-5da4c377-ca3a-454a-9a40-4d2528872d84
+48c95057-a65a-4a7d-a3a3-d20c05359514
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20190524T214518Z
+20190705T222127Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

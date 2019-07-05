@@ -14,18 +14,19 @@ created: 20190523T164946Z
 field: {B1A94FF0-6897-47C0-9C51-AA6ACB80B1F0}
 name: Script
 key: script
-content-length: 322
+content-length: 417
 
 function Get-BasePageConstants {
     [Sitecore.Foundation.SpeRendering.Constants]::ViewConstants._BasePage = [PSCustomObject]@{
         PageTitle   = New-Object Sitecore.Data.ID "{2682104C-BBC4-41F3-80D7-2D5827048702}"
         PageBody    = New-Object Sitecore.Data.ID "{5A53AF4F-E27C-4710-A008-85BA5F6E1042}"
+        HeaderImage    = New-Object Sitecore.Data.ID "{EEDE8440-4E3B-460D-ABB3-66FEB9EB7313}"
     }
 }
 ----version----
 language: en
 version: 1
-revision: a5a85817-9276-4ab0-aeb2-5690dfc823f2
+revision: 824a99e1-fb08-481b-a4bd-25eef46dabdc
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -47,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-a5a85817-9276-4ab0-aeb2-5690dfc823f2
+824a99e1-fb08-481b-a4bd-25eef46dabdc
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20190524T212450Z
+20190705T220041Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
