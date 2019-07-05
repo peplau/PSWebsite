@@ -16,8 +16,6 @@
     <AssemblyName>PSWebsite.Foundation.Navigation.Master</AssemblyName>
     <Name>PSWebsite.Foundation.Navigation.Master</Name>
     <RootNamespace>PSWebsite.Foundation.Navigation.Master</RootNamespace>
-    <SourceWebVirtualPath>/PSWebsite.Foundation.Navigation.csproj</SourceWebVirtualPath>
-    <SourceWebProject>{d1466128-4c3b-4b2e-9ae0-5ebb6e189bc6}|src\Foundation\Navigation\code\PSWebsite.Foundation.Navigation.csproj</SourceWebProject>
     <SourceWebPhysicalPath>..\..\code</SourceWebPhysicalPath>
     <ManageRoles>False</ManageRoles>
     <SitecoreDatabase>master</SitecoreDatabase>
@@ -39,12 +37,6 @@
     <AssemblyAttributes Include="AssemblyVersion">
       <Value>$(AssemblyVersion)</Value>
     </AssemblyAttributes>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\code\PSWebsite.Foundation.Navigation.csproj">
-      <Project>{d1466128-4c3b-4b2e-9ae0-5ebb6e189bc6}</Project>
-      <Name>PSWebsite.Foundation.Navigation</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <SitecoreItem Include="sitecore\system.item">

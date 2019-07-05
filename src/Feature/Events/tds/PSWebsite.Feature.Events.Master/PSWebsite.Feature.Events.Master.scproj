@@ -4,18 +4,20 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>7a7ddb9c-dd64-4796-b3b7-de0691007514</ProjectGuid>
+    <ProjectGuid>e69dc4e9-c750-4ce1-befe-f4a892d68997</ProjectGuid>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <EnableUpdateable>true</EnableUpdateable>
     <UseMerge>true</UseMerge>
-    <SingleAssemblyName>PSWebsite.Foundation.BaseTemplates.Master</SingleAssemblyName>
+    <SingleAssemblyName>PSWebsite.Feature.Events.Master</SingleAssemblyName>
     <UseWebConfigReplacement>false</UseWebConfigReplacement>
     <DeleteAppCodeCompiledFiles>true</DeleteAppCodeCompiledFiles>
     <LegacyFileReplacement>false</LegacyFileReplacement>
-    <AssemblyName>PSWebsite.Foundation.BaseTemplates.Master</AssemblyName>
-    <Name>PSWebsite.Foundation.BaseTemplates.Master</Name>
-    <RootNamespace>PSWebsite.Foundation.BaseTemplates.Master</RootNamespace>
+    <AssemblyName>PSWebsite.Feature.Events.Master</AssemblyName>
+    <Name>PSWebsite.Feature.Events.Master</Name>
+    <RootNamespace>PSWebsite.Feature.Events.Master</RootNamespace>
+    <SourceWebVirtualPath>/PSWebsite.Feature.Events.csproj</SourceWebVirtualPath>
+    <SourceWebProject>{a6255e87-dedc-431d-bdbd-dbe076c9858a}|src\Feature\Events\code\PSWebsite.Feature.Events.csproj</SourceWebProject>
     <SourceWebPhysicalPath>..\..\code</SourceWebPhysicalPath>
     <ManageRoles>False</ManageRoles>
     <SitecoreDatabase>master</SitecoreDatabase>
@@ -39,6 +41,52 @@
     </AssemblyAttributes>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\code\PSWebsite.Feature.Events.csproj">
+      <Project>{a6255e87-dedc-431d-bdbd-dbe076c9858a}</Project>
+      <Name>PSWebsite.Feature.Events</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <SitecoreItem Include="sitecore\layout.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Renderings.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Renderings\Feature.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Renderings\Feature\PSWebsite.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Renderings\Feature\PSWebsite\Events.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\PSWebsite.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\PSWebsite\Feature.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\PSWebsite\Feature\Events.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\PSWebsite\Feature\Events\Upcoming Events.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
     <SitecoreItem Include="sitecore\system.item">
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
@@ -63,111 +111,82 @@
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
+    <SitecoreItem Include="sitecore\system\Modules\PowerShell\Script Library\SPE Rendering\PSWebsite\Controllers.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\system\Modules\PowerShell\Script Library\SPE Rendering\PSWebsite\Controllers\Feature.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\system\Modules\PowerShell\Script Library\SPE Rendering\PSWebsite\Controllers\Feature\Events.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+    </SitecoreItem>
     <SitecoreItem Include="sitecore\system\Modules\PowerShell\Script Library\SPE Rendering\PSWebsite\Functions.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Modules\PowerShell\Script Library\SPE Rendering\PSWebsite\Functions\Foundation.item">
+    <SitecoreItem Include="sitecore\system\Modules\PowerShell\Script Library\SPE Rendering\PSWebsite\Functions\Feature.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Modules\PowerShell\Script Library\SPE Rendering\PSWebsite\Functions\Foundation\BaseTemplates.item">
+    <SitecoreItem Include="sitecore\system\Modules\PowerShell\Script Library\SPE Rendering\PSWebsite\Functions\Feature\Events.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Modules\PowerShell\Script Library\SPE Rendering\PSWebsite\Functions\Foundation\BaseTemplates\Get-BasePageConstants.item">
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Modules\PowerShell\Script Library\SPE Rendering\PSWebsite\Functions\Foundation\BaseTemplates\Get-CssTagConstants.item">
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Modules\PowerShell\Script Library\SPE Rendering\PSWebsite\Functions\Foundation\BaseTemplates\Get-WebsiteConstants.item">
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\templates.item">
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation.item">
+    <SitecoreItem Include="sitecore\templates\Feature.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\PSWebsite.item">
+    <SitecoreItem Include="sitecore\templates\Feature\PSWebsite.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\PSWebsite\BaseTemplates.item">
+    <SitecoreItem Include="sitecore\templates\Feature\PSWebsite\Events.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\PSWebsite\BaseTemplates\_BaseHome.item">
+    <SitecoreItem Include="sitecore\templates\Feature\PSWebsite\Events\_Event.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\PSWebsite\BaseTemplates\_BasePage.item">
+    <SitecoreItem Include="sitecore\templates\Feature\PSWebsite\Events\_Event\__Standard Values.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\PSWebsite\BaseTemplates\_BasePage\__Standard Values.item">
+    <SitecoreItem Include="sitecore\templates\Feature\PSWebsite\Events\_Event\Event.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\PSWebsite\BaseTemplates\_BasePage\Page Content.item">
+    <SitecoreItem Include="sitecore\templates\Feature\PSWebsite\Events\_Event\Event\Event Date.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\PSWebsite\BaseTemplates\_BasePage\Page Content\Page Body.item">
+    <SitecoreItem Include="sitecore\templates\Feature\PSWebsite\Events\_Event\Event\Event Name.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\PSWebsite\BaseTemplates\_BasePage\Page Content\Page Title.item">
+    <SitecoreItem Include="sitecore\templates\Feature\PSWebsite\Events\_Event\Event\Event Picture.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\PSWebsite\BaseTemplates\Data.item">
+    <SitecoreItem Include="sitecore\templates\Feature\PSWebsite\Events\_Event\Event\Event Summary.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\PSWebsite\BaseTemplates\Data\Css Tag.item">
+    <SitecoreItem Include="sitecore\templates\Feature\PSWebsite\Events\_Event\Event\Event Text.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\PSWebsite\BaseTemplates\Data\Css Tag\__Standard Values.item">
+    <SitecoreItem Include="sitecore\templates\Feature\PSWebsite\Events\_Event\Event\Event Venue.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\PSWebsite\BaseTemplates\Data\Css Tag\Css Tag.item">
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\PSWebsite\BaseTemplates\Data\Css Tag\Css Tag\Css Class.item">
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\PSWebsite\BaseTemplates\Data\Css Tags Folder.item">
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\PSWebsite\BaseTemplates\Data\Css Tags Folder\__Standard Values.item">
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\PSWebsite\BaseTemplates\Site Structure.item">
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\PSWebsite\BaseTemplates\Site Structure\Components Folder.item">
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\PSWebsite\BaseTemplates\Site Structure\Website.item">
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\PSWebsite\BaseTemplates\Site Structure\Website.item" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
 </Project>
